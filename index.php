@@ -8,7 +8,7 @@ include 'header.php'; ?>
 </div>
 <!-- /search -->
 
-<!-- SECTION 1 -->
+<!-- Slider -->
 <div class="ui-grid-a">
     <div class="ui-grid-a">
         <div class="ui-block-a" style="width:100%;">
@@ -20,6 +20,71 @@ include 'header.php'; ?>
         </div>
     </div>
 </div>
+<!-- Slider -->
+
+<!-- Top Sellings -->
+<div class="ui-grid-a" style="margin-left: 0%">
+    <div class="ui-block-a" id="products-cards"  >
+        <div class="card" style="height:200; width:150;">
+            <img src="./images/image-1.jpg" alt="Avatar" class="cardImg" style="width: 100px !important;height: 90px !important;" >
+            <div class="cardContainer" style="text-align:center">
+                <b>Cannon Camera 150mm</b>
+            </div>
+        </div>
+    </div>
+
+    <div class="ui-block-b" id="products-cards" >
+        <div class="card" style="height:200; width:150;">
+            <img src="./images/image-2.jpg" alt="Avatar" class="cardImg" style="width: 100px !important;height: 90px !important;">
+            <div class="cardContainer" style="text-align:center">
+                <b>Sony Projector 200mm</b>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ui-grid-a" style="margin-left: 0%">
+    <div class="ui-block-a" id="products-cards"  >
+        <div class="card" style="height:200; width:150;">
+            <img src="./images/image-1.jpg" alt="Avatar" class="cardImg" style="width: 100px !important;height: 90px !important;" >
+            <div class="cardContainer" style="text-align:center">
+                <b>Cannon Camera 150mm</b>
+            </div>
+        </div>
+    </div>
+
+    <div class="ui-block-b" id="products-cards" >
+        <div class="card" style="height:200; width:150;">
+            <img src="./images/image-2.jpg" alt="Avatar" class="cardImg" style="width: 100px !important;height: 90px !important;">
+            <div class="cardContainer" style="text-align:center">
+                <b>Sony Projector 200mm</b>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ui-grid-a" style="margin-left: 0%">
+    <div class="ui-block-a" id="products-cards"  >
+        <div class="card" style="height:200; width:150;">
+            <img src="./images/image-1.jpg" alt="Avatar" class="cardImg" style="width: 100px !important;height: 90px !important;" >
+            <div class="cardContainer" style="text-align:center">
+                <b>Cannon Camera 150mm</b>
+            </div>
+        </div>
+    </div>
+
+    <div class="ui-block-b" id="products-cards" >
+        <div class="card" style="height:200; width:150;">
+            <img src="./images/image-2.jpg" alt="Avatar" class="cardImg" style="width: 100px !important;height: 90px !important;">
+            <div class="cardContainer" style="text-align:center">
+                <b>Sony Projector 200mm</b>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Top Sellings -->
 
 <!-- fixednavbarbottom -->
 <div data-role="footer" data-position="fixed">
@@ -32,7 +97,7 @@ include 'header.php'; ?>
         </ul>
     </div>
 </div>
-<!-- /fixednavbarbottom -->
+<!-- fixednavbarbottom -->
 
 <script>
     jQuery(document).ready(function($) {

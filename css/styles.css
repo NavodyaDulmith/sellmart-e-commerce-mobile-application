@@ -306,14 +306,14 @@ column a and column c is hidden.
 
     /*News page queries ends */
     /*products page queries starts */
-    #products-cards {
+    /* #products-cards {
         width: 100% !important;
         float: none;
-    }
+    } */
 
     #products-cards img {
-        width: 200px !important;
-        height: 200px !important;
+        width: 50px !important;
+        height: 50px !important;
         border-color: white !important;
     }
 
@@ -982,7 +982,7 @@ a.control_next {
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-    width: 90%;
+    width: 30%;
     margin: 10%;
     border-radius: 5px;
 }
