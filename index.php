@@ -8,6 +8,19 @@ include 'header.php'; ?>
 </div>
 <!-- /search -->
 
+<!-- SECTION 1 -->
+<div class="ui-grid-a">
+    <div class="ui-grid-a">
+        <div class="ui-block-a" style="width:100%;">
+            <ul id="exampleSlider">
+                <li><img class="sliderimg" src="./images/slider-1.jpg" alt="" /></li>
+                <li><img class="sliderimg" src="./images/slider-2.jpg" alt="" /></li>
+                <li><img class="sliderimg" src="./images/slider-3.jpg" alt="" /></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
 <!-- fixednavbarbottom -->
 <div data-role="footer" data-position="fixed">
     <div data-role="navbar">
@@ -78,7 +91,7 @@ include 'header.php'; ?>
     $(function() {
 
         /* SET PARAMETERS */
-        var change_img_time = 5000;
+        var change_img_time = 3000;
         var transition_speed = 300;
 
         var simple_slideshow = $("#exampleSlider"),
