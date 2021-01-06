@@ -44,7 +44,7 @@
     </header>
 
     <!--menu panel -->
-    <div data-role="panel" data-position-fixed="true" data-display="overlay" data-theme="b" id="panelArea">
+    <div data-role="panel" data-position-fixed="true" data-display="overlay" data-theme="b" id="panelArea" style="background-color: #ffffff">
         <ul id="white-list" data-role="listview">
             <img src="images/logo.png" style="margin-left: auto;margin-right: auto; width: 80; display: block;" href="index.html" />
             <br />
@@ -52,7 +52,7 @@
             <br />
             <li id="white-list"><a href="#panel-fixed-page2">Home</a></li>
             <li><a href="#panel-fixed-page2">Categories</a></li>
-            <li><a href="#panel-fixed-page2">SellMart Points</a></li>
+            <li><a href="qr.php">SellMart Points</a></li>
             <li><a href="#panel-fixed-page2">My Orders</a></li>
             <li><a href="#panel-fixed-page2">Favourites</a></li>
             <li><a href="#panel-fixed-page2">Settings</a></li>
