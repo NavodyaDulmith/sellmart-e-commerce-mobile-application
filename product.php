@@ -4,7 +4,6 @@
 <link rel="stylesheet" href="css/StarRating.css">
 <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 
-
 <style type="text/css">
 .rate {
             float: left;
@@ -48,12 +47,7 @@
             color: #c59b08;
         }
     </style>
-
-
-
-
 </head>
-
 
 
 <!-- search -->
@@ -78,8 +72,12 @@
     </div>
     <dev style="display:flex; justify-content:left; padding-left: 50px; align-items:center;">
     <img src="images/jam2.jpg" class="thumbnail" width="250" height="100">
-    </dev> 
+    </dev>
+    <dev style="display:flex; justify-content:left; padding-left: 40px; align-items:center;">
+    <input type="image" src="images/buynow.png" name="submit" width="220" height="120" alt="submit"/>  
+    </dev>  
   </div>
+
 
             <div class="rate" style="justify-content:left; padding-left: 50px; align-items:center;" >
                 <input type="radio" id="star5" name="rate" value="5" data-role="none"/>
