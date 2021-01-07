@@ -1328,3 +1328,7 @@ a.control_next {
     width:79px;
     text-overflow: ellipsis;
   }
+
+  .block {
+    display: block;
+ }
