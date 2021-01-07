@@ -58,7 +58,7 @@
 
 <!-- main content -->
 <div class="row">
-    <div style="display:flex; justify-content:left; padding-left: 50px; align-items:center;">
+    <div style="display:flex; justify-content:left; padding-left: 50px; padding-top:20px; align-items:center;">
       <img src="images/jam3.png" class="thumbnail" width="350" height="400">
     </div>
     <div class="col-md-3" style="display:flex; justify-content:left; padding-left: 50px; align-items:center;">
