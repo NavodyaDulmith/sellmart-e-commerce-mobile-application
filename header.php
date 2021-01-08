@@ -45,16 +45,20 @@
         <ul id="white-list" data-role="listview">
             <img src="images/logo.png" style="margin-left: auto;margin-right: auto; width: 80; display: block;" href="index.html" />
             <br />
-            <h3 style="align-self: auto;">Jhon Doe</h3>
+            <img src="images/menu/user-profile@2x.png" style="margin-left: auto;margin-right: auto; width: 80; display: block;">
+            <div style= "line-height:20%;">
+            <h3 style="text-align: center;">Charaka Andaraweera</h3>
+			<p style="text-align: center; padding-top:0;">charakasahira@gmail.com</p>
+            </div>
             <br />
-            <li id="white-list"><a href="#panel-fixed-page2">Home</a></li>
-            <li><a href="#panel-fixed-page2">Categories</a></li>
-            <li><a href="qr.php">SellMart Points</a></li>
-            <li><a href="#panel-fixed-page2">My Orders</a></li>
-            <li><a href="#panel-fixed-page2">Favourites</a></li>
-            <li><a href="#panel-fixed-page2">Settings</a></li>
-            <li><a href="#panel-fixed-page2">Help</a></li>
-            <li><a href="#panel-fixed-page2">About Us</a></li>
+            <li id="white-list"><a href="#panel-fixed-page2"><img src="images/menu/Group_72.png" class="ui-li-icon">Home</a></li>
+            <li><a href="#panel-fixed-page2"><img src="images/menu/Group_70.png" class="ui-li-icon">Categories</a></li>
+            <li><a href="qr.php"><img src="images/menu/Group_57.png" class="ui-li-icon">SellMart Points</a></li>
+            <li><a href="#panel-fixed-page2"><img src="images/menu/Group_62.png" class="ui-li-icon">My Orders</a></li>
+            <li><a href="#panel-fixed-page2"><img src="images/menu/Group_60.png" class="ui-li-icon">Favourites</a></li>
+            <li><a href="#panel-fixed-page2"><img src="images/menu/Group_68.png" class="ui-li-icon">Settings</a></li>
+            <li><a href="#panel-fixed-page2"><img src="images/menu/Group_64.png" class="ui-li-icon">Notifications</a></li>
+            <li><a href="#panel-fixed-page2"><img src="images/menu/Group_66.png" class="ui-li-icon">Help</a></li>
             <br />
             <li><a href="#panel-fixed-page2">Log Out</a></li>
         </ul>
