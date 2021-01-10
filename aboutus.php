@@ -90,7 +90,7 @@ h2 {
     <h2 style="color: #1128A4;">Best Price...Best Quality</h2>
     </div>
     <dev div style="display:flex; justify-content:center; padding-top:40px; align-items:center;">
-    <video width="100%" controls>
+    <video width="100%" controls autoplay>
         <source src="video/shopvideo.mp4" type="video/mp4">
         Your browser does not support HTML video.
     </video>
