@@ -63,8 +63,12 @@
 <!-- /search -->
 
 <!-- main content -->
+
 <div class="row">
-    <div style="display:flex; justify-content:left; padding-left: 50px; padding-top:20px; align-items:center;">
+<div style="display:flex; justify-content:left; padding-left: 50px; padding-top:20px; align-items:center;">
+<h1 style="font-family: Tahoma, sans-serif;font-size: 35px; color:#1128A4;"><b>MD Strawberry JAM </b></h1>
+</div>
+    <div style="display:flex; justify-content:left; padding-left: 100px; padding-top:20px; align-items:center;">
       <img src="images/jam3.png" class="thumbnail" width="350" height="400">
     </div>
     </div>     
@@ -79,6 +83,9 @@
     <img src="images/jam2.jpg" class="thumbnail" width="250" height="120">
     </div>
     <div class="column">
+    <div style="display:flex; justify-content:left; padding-left: 50px; padding-top:20px; align-items:center;">
+    <h1 style="font-family: Tahoma, sans-serif;font-size: 35px; color:#1128A4;"><b>Rs.180</b></h1>
+    </div>
     <input type="image" src="images/buynow.png" name="submit" width="220" height="120" alt="submit"/>
     <div style="background: white; display:flex; justify-content:left; padding-left: 0px; align-items:center;">
             <i class="fa fa-star fa-2x" data-index="0"></i>
