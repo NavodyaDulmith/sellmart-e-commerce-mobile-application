@@ -1,27 +1,8 @@
 <?php
-//index.php
-
+//comment.php
 ?>
 
-<head>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-     
-    <title>Comment System using PHP and Ajax</title>
-    <link rel="stylesheet" href="themes/whitebtn.min.css" />
-    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
-    <link rel="stylesheet" href="css/jquery-steps.css">
-    <link href="https://fonts.googleapis.com/css?family=Scope+One" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
-    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-
-</head>
-
-<body>
-
+<div>
     <form method="POST" id="comment_form">
         <div>
             <form method="POST" id="comment_form">
@@ -42,9 +23,7 @@
         </div>
 
     </form>
-
-</body>
-
+</div>
 
 <script>
     $(document).ready(function() {
