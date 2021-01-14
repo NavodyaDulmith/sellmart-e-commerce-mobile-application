@@ -67,19 +67,19 @@ include 'header.php';
 <div data-role="main" class="ui-content">
     <h2 style="font-family:Tahoma, sans-serif;font-size: 35px; color:#1128A4;text-align:center;">Product Details</h2>
 </div>
-        <div class="ui-block-a" id="event-collapse-time-pic" style="width:20%;padding:5%">
-            <img src="images/jam3.png" class="thumbnail" width="100%">  
+        <div class="ui-block-a" id="event-collapse-time-pic" style="width:30%;padding:5%">
+            <img src="images/jam3.png" class="divs_img" width="100%">  
         </div>  
-        <div class="ui-block-b" style="width:80%; padding:5%;">
+        <div class="ui-block-b" style="width:70%; padding:5%;">
         <h1 style="font-family: Tahoma, sans-serif;font-size: 25px; color:#1128A4;"><b>MD Strawberry Jam</b></h1>
-                    <p id="para1">With our continuous commitment of providing healthy 
+        <p id="para1">With our continuous commitment of providing healthy 
         products, we are also offering our Strawberry Jam that we<br>
         manufacture and supply. Our strawberry jam is made from fresh 
         strawberry pulps that are naturally grown in the country.<br> 
         These are delicately handpicked and carefully processed to provide 
         one of the freshest and tastiest strawberry jams in the market.</p>
-                        <h1 style="font-family: Tahoma, sans-serif;font-size: 35px; color:#1128A4;"><b>Rs.180</b></h1>
-                        <div style="background: white;">
+            <h1 style="font-family: Tahoma, sans-serif;font-size: 35px; color:#1128A4;"><b>Rs.180</b></h1>
+                <div style="background: white;">
                     <i class="fa fa-star fa-2x" data-index="0"></i>
                     <i class="fa fa-star fa-2x" data-index="1"></i>
                     <i class="fa fa-star fa-2x" data-index="2"></i>
