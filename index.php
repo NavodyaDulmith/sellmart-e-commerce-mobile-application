@@ -1,9 +1,7 @@
-<?php
-
-include 'header.php'; ?>
+<?php include 'header.php'; ?>
 
 <!-- search -->
-<div style="border: 1px outset #1128a4; background-color: #1128a4; ">
+<div style="padding: 3; background-color: #1128a4; ">
     <ul data-role="listview" data-filter="true" data-filter-reveal="true" data-filter-placeholder="Search..." data-inset="true"></ul>
 </div>
 <!-- /search -->

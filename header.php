@@ -1,5 +1,3 @@
-<html>
-
 <head>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>SellMart</title>
@@ -34,13 +32,14 @@
 
 <body>
 
-    <header data-role="header" data-position="fixed">
+    <header style="border-bottom: none;" data-role="header" data-position="fixed">
         <a href="#panelArea" data-iconpos="notext" data-icon="bars">menu</a>
         <img src="./images/logo.png" style="margin-left: auto;margin-right: auto; width: 50; display: block;" />
         <a href="profile.php" data-iconpos="notext" data-icon="user">user</a>
+        <div style="height: 4; background: #1128A4;"></div>
     </header>
 
-    <!--menu panel -->
+    <!-- menu panel -->
     <div data-role="panel" data-position-fixed="true" data-display="overlay" data-theme="b" id="panelArea" style="background-color: #ffffff">
         <ul id="white-list" data-role="listview">
             <img src="images/logo.png" style="margin-left: auto;margin-right: auto; width: 80; display: block;" href="index.html" />
@@ -63,4 +62,4 @@
             <li><a href="#panel-fixed-page2">Log Out</a></li>
         </ul>
     </div>
-    <!-- /menu panel -->
+    <!-- menu panel -->

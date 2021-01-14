@@ -1,4 +1,5 @@
 <?php
+include 'header.php';
     $conn = new mysqli('localhost', 'root', '', 'ratingSystem');
 
     if (isset($_POST['save'])) {
@@ -63,39 +64,36 @@
 <!-- /search -->
 
 <!-- main content -->
-
-<div class="row">
-<div style="display:flex; justify-content:left; padding-left: 50px; padding-top:20px; align-items:center;">
-<h1 style="font-family: Tahoma, sans-serif;font-size: 35px; color:#1128A4;"><b>MD Strawberry JAM </b></h1>
+<div data-role="main" class="ui-content">
+    <h2 style="font-family:Tahoma, sans-serif;font-size: 35px; color:#1128A4;text-align:center;">Product Details</h2>
 </div>
-    <div style="display:flex; justify-content:left; padding-left: 100px; padding-top:20px; align-items:center;">
-      <img src="images/jam3.png" class="thumbnail" width="350" height="400">
-    </div>
-    </div>     
-    <div class="column">
-    <p style="font-family: Lucida Console;font-size: 15px;">With our continuous commitment of providing healthy 
+        <div class="ui-block-a" id="event-collapse-time-pic" style="width:30%;padding:5%">
+            <img src="images/jam3.png" class="divs_img" width="100%">  
+        </div>  
+        <div class="ui-block-b" style="width:70%; padding:5%;">
+        <h1 style="font-family: Tahoma, sans-serif;font-size: 25px; color:#1128A4;"><b>MD Strawberry Jam</b></h1>
+        <p id="para1">With our continuous commitment of providing healthy 
         products, we are also offering our Strawberry Jam that we<br>
         manufacture and supply. Our strawberry jam is made from fresh 
         strawberry pulps that are naturally grown in the country.<br> 
         These are delicately handpicked and carefully processed to provide 
-        one of the freshest and tastiest strawberry jams in the market.
-        </p> 
-    <img src="images/jam2.jpg" class="thumbnail" width="250" height="120">
-    </div>
-    <div class="column">
-    <div style="display:flex; justify-content:left; padding-left: 50px; padding-top:20px; align-items:center;">
-    <h1 style="font-family: Tahoma, sans-serif;font-size: 35px; color:#1128A4;"><b>Rs.180</b></h1>
-    </div>
-    <input type="image" src="images/buynow.png" name="submit" width="220" height="120" alt="submit"/>
-    <div style="background: white; display:flex; justify-content:left; padding-left: 0px; align-items:center;">
-            <i class="fa fa-star fa-2x" data-index="0"></i>
-            <i class="fa fa-star fa-2x" data-index="1"></i>
-            <i class="fa fa-star fa-2x" data-index="2"></i>
-            <i class="fa fa-star fa-2x" data-index="3"></i>
-            <i class="fa fa-star fa-2x" data-index="4"></i>
-        <br>
+        one of the freshest and tastiest strawberry jams in the market.</p>
+            <h1 style="font-family: Tahoma, sans-serif;font-size: 35px; color:#1128A4;"><b>Rs.180</b></h1>
+                <div style="background: white;">
+                    <i class="fa fa-star fa-2x" data-index="0"></i>
+                    <i class="fa fa-star fa-2x" data-index="1"></i>
+                    <i class="fa fa-star fa-2x" data-index="2"></i>
+                    <i class="fa fa-star fa-2x" data-index="3"></i>
+                    <i class="fa fa-star fa-2x" data-index="4"></i>
+                     <br>
     </div>  
+                <input type="image" src="images/buynow.png" name="submit" width="150" height="100" alt="submit"/> 
+                        
+
     </div>
+</div>    
+
+
   <!-- /main content -->
 
   <script src="http://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>

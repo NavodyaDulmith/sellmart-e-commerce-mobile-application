@@ -1,0 +1,149 @@
+.card {
+    margin: 10px 0;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.card-header{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.card-header .user-thumb {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user-thumb-small {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.card-header .middle {
+    padding-left: 10px;
+}
+
+.card-header .right {
+    margin-left: auto;
+}
+
+.rating-bar {
+    color: orange;
+}
+
+.card .card-body {
+    display: flex;
+}
+
+.card-body.review {
+    flex-direction: row;
+    align-items: center;
+}
+
+.card .review-image {
+    width: 50%;
+    height: 50%;
+}
+
+.card-body .content {
+    padding:10px;
+    width:100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .card-body.review .review-image {
+        width: 100%;
+    }
+
+    .card-body.review {
+        flex-direction: column;
+    }
+}
+.card * .card-actions {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-end;
+        font-size: 12px;
+    }
+
+    .card-actions .card-action {
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        border: none;
+        padding: 0;
+    }
+
+    .card-action .action-count {
+        margin-left: 5px;
+    }
+
+    .favourite-card{
+        overflow: hidden;
+        display: flex;
+        width: 48%;
+        margin: 5px;
+    }
+
+    .favourite-image-container{
+        overflow: hidden;
+        width: 40%;
+        height: 120px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        background-size: cover;
+    }
+
+    .favourite-image{
+        height: 100%;
+    }
+
+    .favourite-details{
+        width: 50%;
+        font-size: 10px;
+        padding: 10px;
+        padding-bottom: 0;
+    }
+
+    .favourite-icon{
+        padding: 10px;
+    }
+
+    .place-header-container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .place-header-text{
+        font-size: 14px;
+    }
+
+    .places-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .place-action{
+        float: right;
+        color: red;
+        padding: 0 15px;
+    }
+    @media only screen and (max-width: 600px) {
+        .places-container{
+            flex-direction: column;
+        }
+        .favourite-card{
+            width: 97%;
+        }
+    }
+    .header-action{
+        min-width: 60px;
+    }
