@@ -110,7 +110,7 @@
     <div data-role="navbar">
         <ul>
             <li><a href="#" data-icon="home" class="ui-btn-active">Home</a></li>
-            <li><a href="#" data-icon="star">Favs</a></li>
+            <li><a href="favourites.php" data-icon="star">Favs</a></li>
             <li><a href="#" data-icon="gear">Setup</a></li>
             <li><a href="#" data-icon="gear">User</a></li>
         </ul>

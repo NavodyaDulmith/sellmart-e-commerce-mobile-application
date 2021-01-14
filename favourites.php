@@ -1,194 +1,82 @@
 <?php include 'header.php'; ?>
 
 <head>
-    <title>SellMart</title>
-    <link rel="stylesheet" href="library/fontawesome/css/all.min.css" />
-    <link rel="stylesheet" href="library/jquery/jquery.mobile.structure-1.4.5.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
-    <link rel="stylesheet" href="library/materialize/css/materialize.min.css" />
-    <link rel="stylesheet" href="css/cards.css" />
-    <link rel="stylesheet" href="css/favourite.css" />
+<meta charset="utf-8">
+<title>Favourites</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="images/Logo.png">
 
-    <!-- Scripts -->
-    <script src="/library/jquery/jquery-1.11.1.js"></script>
-    <!--     <script src="..css/favourite.css"></script>-->
-
+<!-- the three things that jQuery Mobile needs to work -->
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<link rel="stylesheet" href="css/favourite.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<scripttype="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+<scripttype="text/javascript"></script>
 </head>
 
-<div data-role="content">
-    <!-- CONTENT -->
-    <div data-role="content">
-        <div class="main-content" style="margin-top: 40px;">
-            <h4 style="text-align: center"> My Favourites</h4>
-
-            <label><input type="checkbox" name="checkbox-0" /> Select All </label>
-
-            <div id="favourites-list" class="places-container">
-
-                <div class="card favourite-card">
-                    <div class="favourite-image-container" style="background-image: url('../images/kottume.jpg')"></div>
-                    <div class="favourite-details">
-                        <div>
-                            <div class="place-header-container">
-                                <strong class="place-header-text"><b>Maggi Papare Kottu</b></strong>
-                            </div>
-                            <div>
-                                <p>Maggi Papare Kottu, a mouth-watering and tongue-tingling Noodle made using Onion, Garlic, Chilli and Pepper.</p>
-                            </div>
-                            <div>
-                                <p><b>Rs. 60.00</b></p>
-                            </div>
-                            <div class="favourite-icon" style="position: absolute;bottom: 0;right: 0;color: #11284A;">
-                                <div class="footer-action"> <i class="fas fa-heart" style="font-size: 24px;"></i></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card favourite-card">
-                    <div class="favourite-image-container" style="background-image: url('../images/kottume.jpg')"></div>
-                    <div class="favourite-details">
-                        <div>
-                            <div class="place-header-container">
-                                <strong class="place-header-text"><b>Maggi Papare Kottu</b></strong>
-                            </div>
-                            <div>
-                                <p>Maggi Papare Kottu, a mouth-watering and tongue-tingling Noodle made using Onion, Garlic, Chilli and Pepper.</p>
-                            </div>
-                            <div>
-                                <p><b>Rs. 60.00</b></p>
-                            </div>
-                            <div class="favourite-icon" style="position: absolute;bottom: 0;right: 0;color: #11284A;">
-                                <div class="footer-action"> <i class="fas fa-heart" style="font-size: 24px;"></i></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card favourite-card">
-                    <div class="favourite-image-container" style="background-image: url('../images/kottume.jpg')"></div>
-                    <div class="favourite-details">
-                        <div>
-                            <div class="place-header-container">
-                                <strong class="place-header-text"><b>Maggi Papare Kottu</b></strong>
-                            </div>
-                            <div>
-                                <p>Maggi Papare Kottu, a mouth-watering and tongue-tingling Noodle made using Onion, Garlic, Chilli and Pepper.</p>
-                            </div>
-                            <div>
-                                <p><b>Rs. 60.00</b></p>
-                            </div>
-                            <div class="favourite-icon" style="position: absolute;bottom: 0;right: 0;color: #11284A;">
-                                <div class="footer-action"> <i class="fas fa-heart" style="font-size: 24px;"></i></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card favourite-card">
-                    <div class="favourite-image-container" style="background-image: url('../images/kottume.jpg')"></div>
-                    <div class="favourite-details">
-                        <div>
-                            <div class="place-header-container">
-                                <strong class="place-header-text"><b>Maggi Papare Kottu</b></strong>
-                            </div>
-                            <div>
-                                <p>Maggi Papare Kottu, a mouth-watering and tongue-tingling Noodle made using Onion, Garlic, Chilli and Pepper.</p>
-                            </div>
-                            <div>
-                                <p><b>Rs. 60.00</b></p>
-                            </div>
-                            <div class="favourite-icon" style="position: absolute;bottom: 0;right: 0;color: #11284A;">
-                                <div class="footer-action"> <i class="fas fa-heart" style="font-size: 24px;"></i></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div style="padding-top: 50px;"></div>
-
-            </div>
-        </div>
+<body>
+<div class="favourite-container">
+  <!-- <div class="header"> <span class="material-icons back-icon"> navigate_before </span>
+    <div class="Logo"> <img src="images/Logo.png"> </div>
+  </div> -->
+  <!-- <div class="search"> <span class="material-icons search-icon"> search </span>
+    <input type="text" class="product-search" data-role="none">
+  </div> -->
+  <div class="heading">
+    <h1>FAVOURITES</h1>
+    <h2>Your Favourites List</h2>
+  </div>
+  <div class="filter">
+    <div class="product-filter"> <img class="filter-icon" src="images/filter.png"/>
+      <p>Sort & Filter</p>
+      <p id="checkbox-label">Select All</p>
     </div>
-
-</div>
-<div data-role="footer" class="favourite-list-button" style="position:absolute; bottom:0px; left:0px; right:0px; overflow:hidden;">
-    <!-- <a href="../html/share-favourite.html" data-role="button" class="favourite-button"><b>Share Favourites</b></a> -->
-    <a href="#moda12" data-role="button" class="favourite-button"><b>Share Favourites</b></a>
-
-</div>
-
-<div id="modal2" class="modal">
+    <label class="select-all-checkbox">
+      <input class="select-all" id="select-all" type="checkbox" data-role="none">
+      <span class="checkmark"></span> </label>
+  </div>
+  <div class="products">
+    <ul class="favourite-products" id="favourite-products">
+    </ul>
+  </div>
+  <!-- <div class="footer">
+	<img src="images/navigation-iphone-portrait.jpg">
+	</div> -->
+  <div class="share-favourites" disabled> <img src="images/forward-arrow-icon.png"> <span>Share Favourites</span> </div>
+  <!-- <div class="navigation"> 	<img src="images/home.png" /> 
+		<img src="images/cart.png" /> 
+    <img src="images/offer.png" /> 
+	  <img src="images/rubic.png" /> 
+		<div class="nav-active">
+	  <img class="nav-account-icon" src="images/user-white.png" />
+	  <span class="nav-account-text">Account</span>  -->
+	  </div> </div>
+  <div id="myModal" class="modal"> 
+    
+    <!-- Modal content -->
     <div class="modal-content">
-        <div class="modal-header">
-            <span class="close">×</span>
-            <h2>Email your list</h2>
-        </div>
-        <div class="modal-body">
-            <form action="https://formspree.io/f/xdopyjro" method="POST" enctype="text/plain">
-                E-mail:<br>
-                <input type="email" name="name"><br>
-                Suject:<br>
-                <input id="modal_email_subject" type="text" name="name"><br>
-                Body:<br>
-                <textarea id="modal_email" rows="4" cols="50" name="name"></textarea>
-
-                <fieldset class="ui-grid-a">
-                    <div class="ui-block-a">
-                        <input type="reset" class="ui-btn ui-btn-inline" value="Reset">
-                    </div>
-                    <div class="ui-block-b">
-                        <input type="submit" class="ui-btn ui-btn-inline ui-btn-b" data-theme="b" value="Send">
-                    </div>
-                </fieldset>
-            </form>
-
-
-        </div>
+      <div class="modal-header"> <span class="close" id="close-btn">&times;</span>
+        <h2>SHARE FAVOURITES</h2>
+      </div>
+      <div class="modal-body">
+        <input class="modal-text-box" id="email" type="text" placeholder="Email" data-role="none" required/>
+        <br>
+        <p class="error-text" id="error-text">Please enter a valid E-mail address!</p>
+        <button class="modal-button" id="share-btn" data-role="none" type="submit">Share</button>
+      </div>
     </div>
-
+  </div>
+  <div id="success-toast"> <span class="material-icons success-icon">check_circle</span>
+    <p data-role="none">Sent successfully!</p>
+  </div>
+  <div id="error-toast"> <span class="material-icons error-icon">cancel</span>
+    <p data-role="none">Email not delivered!</p>
+  </div>
 </div>
-
-
-<!-- Modal Script -->
-<script>
-    // Get the button that opens the modal
-    var btn = document.querySelectorAll("a.modal-button");
-
-    // All page modals
-    var modals = document.querySelectorAll('.modal');
-
-    // Get the <span> element that closes the modal
-    var spans = document.getElementsByClassName("close");
-
-    // When the user clicks the button, open the modal
-    for (var i = 0; i < btn.length; i++) {
-        btn[i].onclick = function(e) {
-            e.preventDefault();
-            modal = document.querySelector(e.target.getAttribute("href"));
-            modal.style.display = "block";
-        }
-    }
-
-    // When the user clicks on <span> (x), close the modal
-    for (var i = 0; i < spans.length; i++) {
-        spans[i].onclick = function() {
-            for (var index in modals) {
-                if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";
-            }
-        }
-    }
-
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target.classList.contains('modal')) {
-            for (var index in modals) {
-                if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";
-            }
-        }
-    }
-</script>
-
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+<script type="text/javascript" src="data/products.json" ></script> 
+<script type="text/javascript" src="js/favscript.js" ></script>
 </body>
-
 </html>
