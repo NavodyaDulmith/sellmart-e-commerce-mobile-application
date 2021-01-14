@@ -65,7 +65,7 @@ include 'header.php';
 
 <!-- main content -->
 <div data-role="main" class="ui-content">
-    <h2 style="text-align:center;">Fashion Week Events</h2>
+    <h2 style="text-align:center;">MD Strawberry Jam</h2>
 </div>
         <div class="ui-block-a" id="event-collapse-time-pic" style="width:20%;">
             <img src="images/jam3.png" class="thumbnail" width="100%">  
