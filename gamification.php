@@ -1,7 +1,12 @@
 <?php
 
-include 'header.php'; ?>
-<html>
+include 'header.php';
+if (isset($_GET['qr_button_clicked'])) {
+
+    header("Location:https://qrcodescan.in");
+}
+
+?>
 
 <head>
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -93,7 +98,7 @@ include 'header.php'; ?>
                     <img src="images/sellMart/qr-codes.png" />
                 </div>
                 <div class="ui-block-b" style="width:auto;">
-                    <p style="color:blue; padding-left:40%;">Scan the QR code</p>
+                    <p style="color:blue; padding-left:40%;"><a href='gamification.php?qr_button_clicked=true' id="qr-code" target="_blank">Scan the QR code</a></p>
                 </div>
             </div>
         </button>
@@ -107,5 +112,10 @@ include 'header.php'; ?>
     <div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:60px">Block C</div></div>
     <div class="ui-block-d"><div class="ui-bar ui-bar-a" style="height:60px">Block D</div></div>
 </div>/grid-c -->
-
+<script>
+        $('#qr-code').click(function () {
+            var requestURL = '.json';
+        });
+        
+    </script>
 <?php include 'footer.php' ?>
