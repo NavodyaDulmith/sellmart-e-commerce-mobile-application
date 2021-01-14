@@ -1,3 +1,8 @@
+<?php
+
+include 'header.php'; ?>
+
+
 <html>
 <head>
     <style>
