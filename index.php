@@ -20,93 +20,96 @@
 </div>
 <!-- Slider -->
 
+<div style="height: 0; margin-left: 10;">
+    <h3>Top Sellings</h3>
+</div>
 <!-- Top Sellings -->
 <div class="ui-grid-a" style="margin-left: -5%">
-        <div class="ui-block-a" id="products-cards" style="width:25%;">
-            <div class="card" style="height:400px">
-                <img src="./images/products/product5.jpg" alt="Avatar" class="cardImg">
-                <div class="cardContainer" style="text-align:center">
-                    <h2><b>Viola Skin Retinol Serum & Vitamin E</b></h2>
-                </div>
-            </div>
-        </div>
-
-        <div class="ui-block-b" id="products-cards" style="width:25%;">
-            <div class="card" style="height:400px">
-                <img src="./images/products/product6.jpg" alt="Avatar" class="cardImg">
-                <div class="cardContainer" style="text-align:center">
-                    <h2><b>Neutrogena Visibly Clear Spot Treatment, 15 ml</b></h2>
-                </div>
-            </div>
-        </div>
-
-        <div class="ui-block-c" id="products-cards" style="width:25%;">
-            <div class="card" style="height:400px">
-                <img src="./images/products/product7.jpg" alt="Avatar" class="cardImg">
-                <div class="cardContainer" style="text-align:center">
-                    <h2><b>L'Oréal Pure Clay Green Face Wash 150ml</b></h2>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="ui-block-d" id="products-cards" style="width:25%;">
-            <div class="card" style="height:400px">
-                <img src="./images/products/product8.jpg" alt="Avatar" class="cardImg">
-                <div class="cardContainer" style="text-align:center">
-                    <h2><b>L'Oreal Paris Smooth Sugar Nourish Cocoa</b></h2>
-
-                </div>
+    <div class="ui-block-a" id="products-cards" style="width:25%;">
+        <div class="card" style="height:400px">
+            <img src="./images/products/product5.jpg" alt="Avatar" class="cardImg">
+            <div class="cardContainer" style="text-align:center">
+                <h2><b>Viola Skin Retinol Serum & Vitamin E</b></h2>
             </div>
         </div>
     </div>
 
-    <div class="ui-grid-a" style="margin-left: -5%">
-        <div class="ui-block-a" id="products-cards" style="width:25%;">
-            <div class="card" style="height:400px">
-                <img src="./images/products/product1.jpg" alt="Avatar" class="cardImg">
-                <div class="cardContainer" style="text-align:center">
-                    <h2><b>PraNaturals Pure Aloe Vera Gel 200ml VEGAN (2 pieces)</b></h2>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="ui-block-b" id="products-cards" style="width:25%;">
-            <div class="card" style="height:400px">
-                <img src="./images/products/product2.jpg" alt="Avatar" class="cardImg">
-                <div class="cardContainer" style="text-align:center">
-                    <h2><b>Morris & Co Hand Care Treats, 1 Pack (3 Pieces)</b></h2>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="ui-block-c" id="products-cards" style="width:25%;">
-            <div class="card" style="height:400px">
-                <img src="./images/products/product3.jpg" alt="Avatar" class="cardImg">
-                <div class="cardContainer" style="text-align:center">
-                    <h2><b>Garnier BB Cream Anti Ageing Light Tinted Moisturiser, 50 ml</b></h2>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="ui-block-d" id="products-cards" style="width:25%;">
-            <div class="card" style="height:400px">
-                <img src="./images/products/product4.jpg" alt="Avatar" class="cardImg">
-                <div class="cardContainer" style="text-align:center">
-                    <h2><b>L'Oreal Blackhead Skin Rescue Kit, Kiwi Sugar Scrub 50 ml and Blemish Clay Mask 50 ml</b></h2>
-
-                </div>
+    <div class="ui-block-b" id="products-cards" style="width:25%;">
+        <div class="card" style="height:400px">
+            <img src="./images/products/product6.jpg" alt="Avatar" class="cardImg">
+            <div class="cardContainer" style="text-align:center">
+                <h2><b>Neutrogena Visibly Clear Spot Treatment, 15 ml</b></h2>
             </div>
         </div>
     </div>
+
+    <div class="ui-block-c" id="products-cards" style="width:25%;">
+        <div class="card" style="height:400px">
+            <img src="./images/products/product7.jpg" alt="Avatar" class="cardImg">
+            <div class="cardContainer" style="text-align:center">
+                <h2><b>L'Oréal Pure Clay Green Face Wash 150ml</b></h2>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="ui-block-d" id="products-cards" style="width:25%;">
+        <div class="card" style="height:400px">
+            <img src="./images/products/product8.jpg" alt="Avatar" class="cardImg">
+            <div class="cardContainer" style="text-align:center">
+                <h2><b>L'Oreal Paris Smooth Sugar Nourish Cocoa</b></h2>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ui-grid-a" style="margin-left: -5%">
+    <div class="ui-block-a" id="products-cards" style="width:25%;">
+        <div class="card" style="height:400px">
+            <img src="./images/products/product1.jpg" alt="Avatar" class="cardImg">
+            <div class="cardContainer" style="text-align:center">
+                <h2><b>PraNaturals Pure Aloe Vera Gel 200ml VEGAN (2 pieces)</b></h2>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="ui-block-b" id="products-cards" style="width:25%;">
+        <div class="card" style="height:400px">
+            <img src="./images/products/product2.jpg" alt="Avatar" class="cardImg">
+            <div class="cardContainer" style="text-align:center">
+                <h2><b>Morris & Co Hand Care Treats, 1 Pack (3 Pieces)</b></h2>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="ui-block-c" id="products-cards" style="width:25%;">
+        <div class="card" style="height:400px">
+            <img src="./images/products/product3.jpg" alt="Avatar" class="cardImg">
+            <div class="cardContainer" style="text-align:center">
+                <h2><b>Garnier BB Cream Anti Ageing Light Tinted Moisturiser, 50 ml</b></h2>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="ui-block-d" id="products-cards" style="width:25%;">
+        <div class="card" style="height:400px">
+            <img src="./images/products/product4.jpg" alt="Avatar" class="cardImg">
+            <div class="cardContainer" style="text-align:center">
+                <h2><b>L'Oreal Blackhead Skin Rescue Kit, Kiwi Sugar Scrub 50 ml and Blemish Clay Mask 50 ml</b></h2>
+
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- Top Sellings -->
 
 <!-- fixednavbarbottom -->
-<div data-role="footer" data-position="fixed">
+<div style="border: none;" data-role="footer" data-position="fixed">
     <div data-role="navbar">
         <ul>
             <li><a href="#" data-icon="home" class="ui-btn-active">Home</a></li>
