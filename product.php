@@ -65,18 +65,19 @@ include 'header.php';
 
 <!-- main content -->
 <div data-role="main" class="ui-content">
-    <h2 style="text-align:center;">MD Strawberry Jam</h2>
+    <h2 style="font-family:Tahoma, sans-serif;font-size: 35px; color:#1128A4;text-align:center;">Product Details</h2>
 </div>
-        <div class="ui-block-a" id="event-collapse-time-pic" style="width:20%;">
-            <img src="images/jam3.png" class="thumbnail" width="100%">  
+        <div class="ui-block-a" id="event-collapse-time-pic" style="width:20%;padding:5%">
+            <img src="images/jam3.png" class="thumbnail" width="300px">  
         </div>  
-        <div class="ui-block-b" style="width:80%; padding:5%;">
-                    <p id="para1">Opening Ceremony is the brainchild of Humberto Leon and Carol Lim, two longtime
-                        friends from California who have succeeded in packaging downtown Westminster cool and exporting
-                        it around the world. What began on a little-traveled street on the edges of Chinatown and Soho
-                        as a niche retail concept loosely based on the Olympics—homegrown brands are “pitted” against an
-                        ever-changing, highly curated roster of designers from a specific geographic region—has become a
-                        many tentacled entity with a cult following.</p>
+        <div class="ui-block-b" style="width:80%; padding:7%;">
+        <h1 style="font-family: Tahoma, sans-serif;font-size: 25px; color:#1128A4;"><b>MD Strawberry Jam</b></h1>
+                    <p id="para1">With our continuous commitment of providing healthy 
+        products, we are also offering our Strawberry Jam that we<br>
+        manufacture and supply. Our strawberry jam is made from fresh 
+        strawberry pulps that are naturally grown in the country.<br> 
+        These are delicately handpicked and carefully processed to provide 
+        one of the freshest and tastiest strawberry jams in the market.</p>
                         <h1 style="font-family: Tahoma, sans-serif;font-size: 35px; color:#1128A4;"><b>Rs.180</b></h1>
                         <div style="background: white;">
                     <i class="fa fa-star fa-2x" data-index="0"></i>
@@ -86,7 +87,7 @@ include 'header.php';
                     <i class="fa fa-star fa-2x" data-index="4"></i>
                      <br>
     </div>  
-                        <input type="image" src="images/buynow.png" name="submit" width="150" height="100" alt="submit"/> 
+                <input type="image" src="images/buynow.png" name="submit" width="150" height="100" alt="submit"/> 
                         
 
     </div>
