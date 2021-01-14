@@ -32,11 +32,11 @@
 
 <body>
 
-    <header data-role="header" data-position="fixed">
+    <header style="border-bottom: none;" data-role="header" data-position="fixed">
         <a href="#panelArea" data-iconpos="notext" data-icon="bars">menu</a>
         <img src="./images/logo.png" style="margin-left: auto;margin-right: auto; width: 50; display: block;" />
         <a href="profile.php" data-iconpos="notext" data-icon="user">user</a>
-        <div style="    height: 4; background: #1128A4;"></div>
+        <div style="height: 4; background: #1128A4;"></div>
     </header>
 
     <!-- menu panel -->
