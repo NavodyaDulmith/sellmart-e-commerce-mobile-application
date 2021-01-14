@@ -68,9 +68,9 @@ include 'header.php';
     <h2 style="font-family:Tahoma, sans-serif;font-size: 35px; color:#1128A4;text-align:center;">Product Details</h2>
 </div>
         <div class="ui-block-a" id="event-collapse-time-pic" style="width:20%;padding:5%">
-            <img src="images/jam3.png" class="thumbnail" width="300px">  
+            <img src="images/jam3.png" class="thumbnail" width="100%">  
         </div>  
-        <div class="ui-block-b" style="width:80%; padding:7%;">
+        <div class="ui-block-b" style="width:80%; padding:0%;">
         <h1 style="font-family: Tahoma, sans-serif;font-size: 25px; color:#1128A4;"><b>MD Strawberry Jam</b></h1>
                     <p id="para1">With our continuous commitment of providing healthy 
         products, we are also offering our Strawberry Jam that we<br>
