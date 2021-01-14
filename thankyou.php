@@ -4,9 +4,9 @@
 line-height: 100%;">
 
     <div id="portrait">
-        <img src="./images/thankyou.png" style="height: auto;width: 15%;padding-top: 20px">
+        <img src="./images/popups/Thank-you.png" style="height: auto;width: 100%;padding-top: 20px">
 
-        <div style="text-align: center;font-size: large;padding-bottom: 25px">Thank You for your payment
+        <div style="text-align: center;font-size: large;padding-bottom: 25px">Thank You for your payment!
         </div>
         <div style="text-align: center;font-size: large;padding-bottom: 40px">
             <a href="index.php" style="text-decoration:none" ;>Go back to home page</a>
@@ -15,9 +15,9 @@ line-height: 100%;">
     </div>
 
     <div id="landscape">
-        <img src="./images/thankyou.png" style="height: auto;width: 20%">
+        <img src="./images/popups/Thank-you.png" style="height: auto;width: 50%">
 
-        <div style="text-align: center;font-size: large">Thank You for your payment
+        <div style="text-align: center;font-size: large">Thank You for your payment!
         </div>
         <a href="index.php" style="text-decoration:none" ;>Go back to home page</a>
         <hr>
