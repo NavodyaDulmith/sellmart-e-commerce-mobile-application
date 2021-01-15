@@ -46,19 +46,19 @@
             <img src="images/logo.png" style="margin-left: auto;margin-right: auto; width: 80; display: block;" href="index.html" />
             <br />
             <img src="images/menu/user-profile@2x.png" style="margin-left: auto;margin-right: auto; width: 80; display: block;">
-            <div style= "line-height:20%;">
-            <h3 style="text-align: center;">Charaka Andaraweera</h3>
-			<p style="text-align: center; padding-top:0;">charakasahira@gmail.com</p>
+            <div style="line-height:20%;">
+                <h3 style="text-align: center;">Charaka Andaraweera</h3>
+                <p style="text-align: center; padding-top:0;">charakasahira@gmail.com</p>
             </div>
             <br />
-            <li id="white-list"><a href="#panel-fixed-page2"><img src="images/menu/Group_72.png" class="ui-li-icon">Home</a></li>
-            <li><a href="#panel-fixed-page2"><img src="images/menu/Group_70.png" class="ui-li-icon">Categories</a></li>
-            <li><a href="qr.php"><img src="images/menu/Group_57.png" class="ui-li-icon">SellMart Points</a></li>
-            <li><a href="#panel-fixed-page2"><img src="images/menu/Group_62.png" class="ui-li-icon">My Orders</a></li>
-            <li><a href="#panel-fixed-page2"><img src="images/menu/Group_60.png" class="ui-li-icon">Favourites</a></li>
-            <li><a href="#panel-fixed-page2"><img src="images/menu/Group_68.png" class="ui-li-icon">Settings</a></li>
-            <li><a href="#panel-fixed-page2"><img src="images/menu/Group_64.png" class="ui-li-icon">Notifications</a></li>
-            <li><a href="#panel-fixed-page2"><img src="images/menu/Group_66.png" class="ui-li-icon">Help</a></li>
+            <li id="white-list"><a data-ajax="false" href="index.php"><img src="images/menu/Group_72.png" class="ui-li-icon">Home</a></li>
+            <li><a data-ajax="false" href="poi.php"><img src="images/menu/Group_70.png" class="ui-li-icon">POI</a></li>
+            <li><a data-ajax="false" href="gamification.php"><img src="images/menu/Group_57.png" class="ui-li-icon">SellMart Points</a></li>
+            <li><a data-ajax="false" href="ar.php"><img src="images/menu/Group_62.png" class="ui-li-icon">Offers</a></li>
+            <li><a data-ajax="false" href="favourites.php"><img src="images/menu/Group_60.png" class="ui-li-icon">Favourites</a></li>
+            <li><a data-ajax="false" href="#panel-fixed-page2"><img src="images/menu/Group_68.png" class="ui-li-icon">Settings</a></li>
+            <li><a data-ajax="false" href="#panel-fixed-page2"><img src="images/menu/Group_64.png" class="ui-li-icon">Notifications</a></li>
+            <li><a data-ajax="false" href="#panel-fixed-page2"><img src="images/menu/Group_66.png" class="ui-li-icon">Help</a></li>
             <br />
             <li><a href="#panel-fixed-page2">Log Out</a></li>
         </ul>

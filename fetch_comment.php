@@ -2,14 +2,13 @@
 
 $connect = new PDO('mysql:host=localhost;dbname=testing', 'root', '');
 
+$actual_link = $_SERVER['HTTP_REFERER'];
+
 $query = "
 SELECT * FROM tbl_comment 
-WHERE parent_comment_id = '0' 
-ORDER BY comment_id DESC
-";
+WHERE parent_comment_id = '0' and product_name = '$actual_link' ORDER BY comment_id DESC";
 
 $statement = $connect->prepare($query);
-
 $statement->execute();
 
 $result = $statement->fetchAll();
