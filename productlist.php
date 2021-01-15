@@ -67,20 +67,20 @@ include 'header.php';?>
         <div class="summary-total-items"><span class="total-items"></span> Items in your Bag</div>
         <div class="summary-subtotal">
           <div class="subtotal-title">Subtotal</div>
-          <div class="subtotal-value final-value" id="basket-subtotal">130.00</div>
-          <div class="summary-promo hide">
-            <div class="promo-title">Promotion</div>
-            <div class="promo-value final-value" id="basket-promo"></div>
+          <div class="subtotal-value final-value" id="basket-subtotal">130</div>
+          <div class="summary-promo">
+            <div class="promo-title">Discount</div>
+            <div class="promo-value final-value" id="basketpromo"></div>
           </div>
         </div>
         <div class="summary-total">
           <div class="total-title">Total</div>
-          <div class="total-value final-value" id="basket-total">130.00</div>
+          <div class="total-value final-value" id="basket-total"></div>
         </div>
         <div class="summary-checkout">
         <a data-ajax="false" href="checkout.php" class="ui-btn ">CHECKOUT</a>
         </div>
-        <a href="redeemPoints.php"> <span style="font-size:10px; color:blue; text-align:center;">Want to redeem Sell Mart points?</span></a>
+        <a href="redeemPoints.php" data-ajax="false"> <span  class="redeemPage" style="font-size:10px; color:blue; text-align:center;">Want to redeem Sell Mart points?</span></a>
       </div>
     </aside>
   </main>
