@@ -15,7 +15,7 @@
 
 <ul data-role="listview" data-inset="false" style="padding:5%">
 <h1 style="font-family: Tahoma, sans-serif;font-size: 25px; color:#1128A4;padding:1%"><b>Top Rated Products</b></h1>
-    <li style="padding:2%"><a href="#">
+    <li style="padding:0%"><a href="#">
         <img src="images/jam3.png">
         <div>
             <i class="fa fa-star fa-2x" data-index="0"></i>
@@ -29,8 +29,8 @@
     <p>Rs.180</p></a>
     <a href="product.php" target="_blank" class="ui-btn ui-btn-inline ui-btn-b" data-theme="b">Buy It</a>
     </li>
-    <li style="padding:2%"><a href="#">
-        <img src="images/sellMart/cornFlakes.jpg">
+    <li style="padding:0%"><a href="#">
+        <img src="images/products/p1.PNG">
         <div>
             <i class="fa fa-star fa-2x"></i>
             <i class="fa fa-star fa-2x"></i>
@@ -43,8 +43,8 @@
     <p>Rs.250</p></a>
     <a href="product.php" target="_blank" class="ui-btn ui-btn-inline ui-btn-b" data-theme="b">Buy It</a>
     </li>
-    <li style="padding:2%"><a href="#">
-        <img src="images/sellMart/chips.jpg">
+    <li style="padding:0%"><a href="#">
+        <img src="images/products/p2.PNG">
             <div>
             <i class="fa fa-star fa-2x"></i>
             <i class="fa fa-star fa-2x"></i>
@@ -57,7 +57,7 @@
     <p>Rs.80</p></a>
     <a href="product.php" target="_blank" class="ui-btn ui-btn-inline ui-btn-b" data-theme="b">Buy It</a>
     </li>
-    <li style="padding:2%"><a href="#">
+    <li style="padding:0%"><a href="#">
         <img src="images/products/product3.jpg">
             <div>
             <i class="fa fa-star fa-2x"></i>
@@ -71,7 +71,7 @@
     <p>Phoenix</p></a>
     <a href="product.php" target="_blank" class="ui-btn ui-btn-inline ui-btn-b" data-theme="b">Buy It</a>
     </li>
-    <li style="padding:2%"><a href="#">
+    <li style="padding:0%"><a href="#">
         <img src="images/products/product5.jpg">
             <div>
             <i class="fa fa-star fa-2x"></i>
