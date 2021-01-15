@@ -59,10 +59,10 @@ $avg = $total / $numR;
 <!-- main content -->
 <div class="ui-block-a">
     <div class="ui-block-a" id="event-collapse-time-pic" style="width:30%;padding:5%">
-        <img src="images/sellMart/cornFlakes.jpg" class="divs_img" width="100%">
+        <img src="images/products/p1.png" class="divs_img" width="100%">
     </div>
     <div class="ui-block-b" style="width:70%; padding:5%;">
-        <h1 style="font-family: Tahoma, sans-serif;font-size: 25px; color:#1128A4;"><b>Corn Flasks</b></h1>
+        <h1 style="font-family: Tahoma, sans-serif;font-size: 25px; color:#1128A4;"><b>Kellogs Corn Flakes</b></h1>
         <p id="para1">Corn flakes are a packaged cereal product formed from small toasted flakes of corn, 
             usually served cold with milk and sometimes sugar.<br> 
             Since their original production, the plain flakes have been flavored with salt, sugar, 
