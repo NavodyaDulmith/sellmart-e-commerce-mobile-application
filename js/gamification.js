@@ -1,5 +1,6 @@
 $(document).delegate('.ui-page', 'pageshow', function () {
     var userInfo = JSON.parse(localStorage.getItem("loggedUser"));
+    var pointsInfo = JSON.parse(localStorage.getItem("pointInfo"));
     var userName = userInfo.username;
     var weekPoints = userInfo.weekPoints;
     var points = userInfo.points;

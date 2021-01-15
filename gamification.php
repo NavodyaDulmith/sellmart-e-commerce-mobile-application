@@ -65,7 +65,7 @@ if (isset($_GET['qr_button_clicked'])) {
     </div>
 	<div class="ui-block-b">
         <div class="ui-bar-b"  style="height: 100px; margin-right:10px; margin-left:2px; border-radius:1em">
-            <span style="font-family:Lucida Console; color:#2b10a3; text-decoration: underline;"><p style="text-align:center; padding-top: 10px;">View this week rankings</p></span>
+           <a data-ajax="false" href="leaderboard.php"> <span style="font-family:Lucida Console; color:#2b10a3; text-decoration: underline;"><p style="text-align:center; padding-top: 10px;">View this week rankings</p></span></a>
         </div>
     </div>
 </div>
