@@ -1,0 +1,22 @@
+.ui-block-trophy{
+    background-image: linear-gradient(to bottom right,#9e1497,#8f79cc);
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+#ui-grid-ranks{
+    background-image: linear-gradient(to bottom right,#2b10a3,#8f79cc);
+    background-size: cover;
+    margin:10px;
+    border-radius:1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+#ui-grid-ranks-self{
+    background-image: linear-gradient(to bottom right,#ced11c,#b9b46a);
+    background-size: cover;
+    margin:10px;
+    border-radius:1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+}

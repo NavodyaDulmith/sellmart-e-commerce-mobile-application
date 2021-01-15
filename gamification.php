@@ -13,6 +13,7 @@ if (isset($_GET['qr_button_clicked'])) {
     <title>Gamification</title>
 
     <link rel="stylesheet" href="css/gamificationStyles.css" />
+    <script src="js/gamification.js"></script>
     
 </head>
 <body>
@@ -32,8 +33,8 @@ if (isset($_GET['qr_button_clicked'])) {
 	        <div class="ui-block-b">
                 <div class="ui-grid-a">
 	                <div class="ui-block-a" style ="text-align:center;"><img src="images/sellMart/chips.jpg" style="width:60%; height:60%" /></div>
-                    <div class="ui-block-b"><span style="font-family: Tahoma; color: #ffffff"><p style="font-size:16px;">Corn Flakes</br>(400g)</p>
-                    <p style= "font-size:10px;">10 points per item</p>
+                    <div class="ui-block-b"><span style="font-family: Tahoma; color: #ffffff"><p style="font-size:16px;">Potato Chips</br>(200g)</p>
+                    <p style= "font-size:10px;">15 points per item</p>
                     </div>
                 </div>
             </div>
@@ -44,19 +45,22 @@ if (isset($_GET['qr_button_clicked'])) {
 <div class="ui-grid-a">
 	<div class="ui-block-a">
         <div class="ui-bar-total"  style="height: 100px; margin-left:10px; margin-right:2px; border-radius:1em">
-            <span class="sell-mart-total"><p style="text-align:center; padding-top: 10px;">Total Sell Mart points in your wallet</br>150</p></span>
+            <span class="sell-mart-total"><p style="text-align:center; padding-top: 10px;">Total Sell Mart points</br>
+            <p id="totalPoints" style="text-align:center;"></p></p></span>
         </div>
     </div>
 	<div class="ui-block-b">
         <div class="ui-bar-total"  style="height: 100px; margin-right:10px; margin-left:2px; border-radius:1em">
-            <span class="sell-mart-total"><p style="text-align:center; padding-top: 10px;">This week earning</br>20</p></span>
+            <span class="sell-mart-total"><p style="text-align:center; padding-top: 10px;">This week earning</br>
+            <p id="weekPoints" style="text-align:center;"></p></p></span>
         </div>
     </div>
 </div>
 <div class="ui-grid-a">
 	<div class="ui-block-a">
         <div class="ui-bar-total"  style="height: 100px; margin-left:10px; margin-right:2px; border-radius:1em">
-            <span class="sell-mart-total"><p style="text-align:center; padding-top: 10px;">Your ranking</br>3</p></span>
+            <span class="sell-mart-total"><p style="text-align:center; padding-top: 10px;">Your ranking</br>
+            <p id="rank" style="text-align:center;"></p></p></span>
         </div>
     </div>
 	<div class="ui-block-b">
