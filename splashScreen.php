@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html>
+
   <head>
     <!-- <title>Sign in</title> -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -8,7 +7,7 @@
       rel="stylesheet"
       href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"
     />
-    <link rel="stylesheet" type="text/css" href="../css/splashScreen.css" />
+    <link rel="stylesheet" type="text/css" href="css/splashScreen.css" />
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <script src="js/orientation.js"></script>
@@ -24,7 +23,7 @@
   <body>
     <div data-role="page" id="pageOne">
       <div>
-        <img class="splashScreen1" src="../images/11first.png" />
+        <img class="splashScreen1" src="images/11first.png" />
       </div>
       <div>
         <label
@@ -45,7 +44,7 @@
       <div class="row">
         <div class="column">
           <button class="skipBt">
-            <a href="../login/index.html" style="color: black">Skip</a>
+            <a href="index.html" style="color: black">Skip</a>
           </button>
         </div>
         <div class="column">
@@ -59,7 +58,7 @@
     <!-- 2 nd splashScreen -->
     <div data-role="page" id="pageTwo">
       <div>
-        <img class="splashScreen2" src="../images/33.jpg" />
+        <img class="splashScreen2" src="images/33.jpg" />
       </div>
       <br /><br />
       <div>
@@ -93,7 +92,7 @@
     <!-- 3rd splash screen -->
     <div data-role="page" id="pageThree" style="background-color: white">
       <div>
-        <img class="splashScreen2" src="../images/second.jpg" />
+        <img class="splashScreen2" src="images/second.jpg" />
       </div>
       <br />
       <br />
@@ -116,8 +115,7 @@
       <br />
 
       <button class="start" style="background-color: #1128a4">
-        <a href="../login/index.html" style="color: white">Start Shopping</a>
+        <a href="login.php" style="color: white">Start Shopping</a>
       </button>
     </div>
   </body>
-</html>
