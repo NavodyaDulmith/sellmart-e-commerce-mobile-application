@@ -94,12 +94,13 @@ h2 {
     <div style="display:flex; justify-content:center; padding-left: 50px; padding-top:40px; align-items:center;">
     <h2 style="color: #1128A4;">Best Price...Best Quality</h2>
     </div>
-    <dev div style="display:flex; justify-content:center; padding-top:40px; align-items:center;">
-    <video width="100%" controls autoplay>
-        <source src="video/shopvideo.mp4" type="video/mp4">
-        Your browser does not support HTML video.
-    </video>
-</dev>
+    <div class="ui-grid-a">
+        <div class="ui-grid-a">
+            <div class="ui-block-a" style="width:100%;">
+            <iframe width="100%" height="550px" src="https://www.youtube.com/embed/ulBVcJpEf8s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
 <div style="display:flex; justify-content:center; padding-left: 50px; padding-top:20px; padding-bottom:30px; align-items:center;">
   <h2 style="color: #1128A4;">Where you can find us..</h2>
     </div>
