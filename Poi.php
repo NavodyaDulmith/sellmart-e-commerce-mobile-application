@@ -13,7 +13,7 @@
 
 </head>
 
-<ul data-role="listview" data-inset="true" style="padding:5%">
+<ul data-role="listview" data-inset="false" style="padding:5%">
 <h1 style="font-family: Tahoma, sans-serif;font-size: 25px; color:#1128A4;padding:1%"><b>Top Rated Products</b></h1>
     <li style="padding:2%"><a href="#">
         <img src="images/jam3.png">
@@ -27,6 +27,7 @@
         </div>
     <h2>MD Strawberry Jam</h2>
     <p>Rs.180</p></a>
+    <a href="product.php" target="_blank" class="ui-btn ui-btn-inline ui-btn-b" data-theme="b">Buy It</a>
     </li>
     <li style="padding:2%"><a href="#">
         <img src="images/sellMart/cornFlakes.jpg">
@@ -40,6 +41,7 @@
         </div>
     <h2>Corn Flasks</h2>
     <p>Rs.250</p></a>
+    <a href="product.php" target="_blank" class="ui-btn ui-btn-inline ui-btn-b" data-theme="b">Buy It</a>
     </li>
     <li style="padding:2%"><a href="#">
         <img src="images/sellMart/chips.jpg">
@@ -53,6 +55,7 @@
         </div>
     <h2>Potato Chips</h2>
     <p>Rs.80</p></a>
+    <a href="product.php" target="_blank" class="ui-btn ui-btn-inline ui-btn-b" data-theme="b">Buy It</a>
     </li>
     <li style="padding:2%"><a href="#">
         <img src="images/products/product3.jpg">
@@ -66,6 +69,7 @@
         </div>
     <h2>Wolfgang Amadeus Phoenix</h2>
     <p>Phoenix</p></a>
+    <a href="product.php" target="_blank" class="ui-btn ui-btn-inline ui-btn-b" data-theme="b">Buy It</a>
     </li>
     <li style="padding:2%"><a href="#">
         <img src="images/products/product5.jpg">
@@ -79,6 +83,7 @@
         </div>
     <h2>Wolfgang Amadeus Phoenix</h2>
     <p>Phoenix</p></a>
+    <a href="product.php" target="_blank" class="ui-btn ui-btn-inline ui-btn-b" data-theme="b">Buy It</a>
     </li>
 </ul>
 <script src="http://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
