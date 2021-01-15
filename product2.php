@@ -78,7 +78,7 @@ $avg = $total / $numR;
             <i class="fa fa-star fa-2x" data-index="4"></i>
             <br>
         </div>
-        <input type="image" src="images/buynow.png" name="submit" width="150" height="100" alt="submit" />
+        <a data-ajax="false" href="productlist.php"><img src="images/buynow.png" width="150" height="100"/></img></a>
 
 
     </div>
