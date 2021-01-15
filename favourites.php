@@ -75,7 +75,7 @@
     <p data-role="none">Email not delivered!</p>
   </div>
 </div>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+ <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script> 
 <script type="text/javascript" src="data/products.json" ></script> 
 <script type="text/javascript" src="js/favscript.js" ></script>
 </body>

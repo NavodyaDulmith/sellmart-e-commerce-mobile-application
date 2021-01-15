@@ -1,5 +1,3 @@
-import{ init } from 'emailjs-com';
-init("user_Amc5oEbKcVQNvuQ9LlPJZ");
 // JavaScript Document
 $(document).ready(function () {
 
@@ -175,7 +173,7 @@ function sendEmail() {
   var emailBody = getEmailBody();
   var templateParams = {
     content: emailBody,
-    email: "himasha.2017178@iit.ac.lk"
+    email: localStorage.getItem("email")
   };
 
   emailjs.send('service_h6v98zi', 'template_ow3m4sp', templateParams, 'user_Amc5oEbKcVQNvuQ9LlPJZ')
