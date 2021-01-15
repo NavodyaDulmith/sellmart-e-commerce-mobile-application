@@ -1,0 +1,17 @@
+.ui-bar-prods{
+    background-image: linear-gradient(to bottom right,#2b10a3,#8f79cc);
+    background-size: cover;
+}
+.sell-mart-prods{
+    color: #ffffff;
+    font-family: "Lucida Console";
+}
+.ui-bar-total{
+    background-image: linear-gradient(to bottom right,#22086b,#cf0cbf);
+    background-size: cover;
+}
+.sell-mart-total{
+    color: #ffffff;
+    font-family: "Lucida Console";
+}
+

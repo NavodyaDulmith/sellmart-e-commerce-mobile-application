@@ -6,6 +6,8 @@ $error = '';
 $comment_name = '';
 $comment_content = '';
 
+$actual_link = $_SERVER['HTTP_REFERER'];
+
 if(empty($_POST["comment_name"]))
 {
  $error .= '<p class="text-danger">Name is required</p>';
@@ -28,15 +30,16 @@ if($error == '')
 {
  $query = "
  INSERT INTO tbl_comment 
- (parent_comment_id, comment, comment_sender_name) 
- VALUES (:parent_comment_id, :comment, :comment_sender_name)
+ (parent_comment_id, comment, comment_sender_name, product_name) 
+ VALUES (:parent_comment_id, :comment, :comment_sender_name, :product_link)
  ";
  $statement = $connect->prepare($query);
  $statement->execute(
   array(
    ':parent_comment_id' => $_POST["comment_id"],
    ':comment'    => $comment_content,
-   ':comment_sender_name' => $comment_name
+   ':comment_sender_name' => $comment_name,
+   ':product_link' => $actual_link,
   )
  );
  $error = '<label class="text-success">Comment Added</label>';

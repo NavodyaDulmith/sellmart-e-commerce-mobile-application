@@ -1,4 +1,4 @@
-<div data-role="footer" style="text-align:center;">
+<div  data-role="footer" style="text-align:center; background-image: linear-gradient(to top, #a3b4cf, #b1bfd4, #bfcad9, #ced5df, #dde0e4);">
 
     <div data-role="controlgroup" data-type="vertical" style="padding:0 20% 0 20%">
 
