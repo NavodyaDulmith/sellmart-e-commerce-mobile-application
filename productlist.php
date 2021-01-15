@@ -78,7 +78,7 @@ include 'header.php';?>
           <div class="total-value final-value" id="basket-total"></div>
         </div>
         <div class="summary-checkout">
-          <button class="checkout-cta">Go to Secure Checkout</button>
+        <a data-ajax="false" href="checkout.php" class="ui-btn ">CHECKOUT</a>
         </div>
         <a href="redeemPoints.php" data-ajax="false"> <span  class="redeemPage" style="font-size:10px; color:blue; text-align:center;">Want to redeem Sell Mart points?</span></a>
       </div>
