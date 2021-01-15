@@ -14,6 +14,7 @@
 </head>
 
 <ul data-role="listview" data-inset="true" style="padding:5%">
+<h1 style="font-family: Tahoma, sans-serif;font-size: 25px; color:#1128A4;padding:1%"><b>Top Rated Products</b></h1>
     <li style="padding:2%"><a href="#">
         <img src="images/jam3.png">
         <div>
