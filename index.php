@@ -26,39 +26,46 @@
 <!-- Top Sellings -->
 <div class="ui-grid-a" style="margin-left: -5%">
     <div class="ui-block-a" id="products-cards" style="width:25%;">
-        <div class="card" style="height:400px">
-            <img src="./images/products/product5.jpg" alt="Avatar" class="cardImg">
+        <div class="card" style="height:475px">
+            <img src="./images/products/p22.PNG" alt="Avatar" class="cardImg">
             <div class="cardContainer" style="text-align:center">
-                <h2><b>Viola Skin Retinol Serum & Vitamin E</b></h2>
+                <h2><b>Jacker Potato Chips Tomato 60g</b></h2>
+                <p>Rs 375.00 / Unit</p>
+                <a data-ajax="false" href="product2.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
             </div>
         </div>
     </div>
+    </a>
 
     <div class="ui-block-b" id="products-cards" style="width:25%;">
-        <div class="card" style="height:400px">
-            <img src="./images/products/product6.jpg" alt="Avatar" class="cardImg">
+        <div class="card" style="height:475px">
+            <img src="./images/products/p3.png" alt="Avatar" class="cardImg">
             <div class="cardContainer" style="text-align:center">
-                <h2><b>Neutrogena Visibly Clear Spot Treatment, 15 ml</b></h2>
+                <h2><b>Md Strawberry Flavoured Jam Fruit 500g</b></h2>
+                <p>Rs 325.00 / Unit</p>
+                <a data-ajax="false" href="product.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
             </div>
         </div>
     </div>
 
     <div class="ui-block-c" id="products-cards" style="width:25%;">
-        <div class="card" style="height:400px">
-            <img src="./images/products/product7.jpg" alt="Avatar" class="cardImg">
+        <div class="card" style="height:475px">
+            <img src="./images/products/p1.PNG" alt="Avatar" class="cardImg">
             <div class="cardContainer" style="text-align:center">
-                <h2><b>L'Oréal Pure Clay Green Face Wash 150ml</b></h2>
-
+                <h2><b>Kelloggs Corn Flakes Flavoured 300g</b></h2>
+                <p>Rs 610.00 / Unit</p>
+                <a data-ajax="false" href="product3.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
             </div>
         </div>
     </div>
 
     <div class="ui-block-d" id="products-cards" style="width:25%;">
-        <div class="card" style="height:400px">
-            <img src="./images/products/product8.jpg" alt="Avatar" class="cardImg">
+        <div class="card" style="height:475px">
+            <img src="./images/products/product3.jpg" alt="Avatar" class="cardImg">
             <div class="cardContainer" style="text-align:center">
-                <h2><b>L'Oreal Paris Smooth Sugar Nourish Cocoa</b></h2>
-
+                <h2><b>Garnier BB Cream Anti Ageing Moisturiser, 50 ml</b></h2>
+                <p>Rs 450.00 / Unit</p>
+                <a data-ajax="false" href="product2.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
             </div>
         </div>
     </div>
@@ -66,44 +73,50 @@
 
 <div class="ui-grid-a" style="margin-left: -5%">
     <div class="ui-block-a" id="products-cards" style="width:25%;">
-        <div class="card" style="height:400px">
+        <div class="card" style="height:475px">
             <img src="./images/products/product1.jpg" alt="Avatar" class="cardImg">
             <div class="cardContainer" style="text-align:center">
-                <h2><b>PraNaturals Pure Aloe Vera Gel 200ml VEGAN (2 pieces)</b></h2>
-
+                <h2><b>PraNaturals Pure Aloe Vera Gel 200ml</b></h2>
+                <p>Rs 225.00 / Unit</p>
+                <a data-ajax="false" href="product2.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
             </div>
         </div>
     </div>
 
     <div class="ui-block-b" id="products-cards" style="width:25%;">
-        <div class="card" style="height:400px">
+        <div class="card" style="height:475px">
             <img src="./images/products/product2.jpg" alt="Avatar" class="cardImg">
             <div class="cardContainer" style="text-align:center">
                 <h2><b>Morris & Co Hand Care Treats, 1 Pack (3 Pieces)</b></h2>
-
+                <p>Rs 560.00 / Unit</p>
+                <a data-ajax="false" href="product2.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
             </div>
         </div>
     </div>
 
     <div class="ui-block-c" id="products-cards" style="width:25%;">
-        <div class="card" style="height:400px">
-            <img src="./images/products/product3.jpg" alt="Avatar" class="cardImg">
+        <div class="card" style="height:475px">
+            <img src="./images/products/product8.jpg" alt="Avatar" class="cardImg">
             <div class="cardContainer" style="text-align:center">
-                <h2><b>Garnier BB Cream Anti Ageing Light Tinted Moisturiser, 50 ml</b></h2>
-
+                <h2><b>L'Oreal Paris Smooth Sugar Nourish Cocoa</b></h2>
+                <p>Rs 525.00 / Unit</p>
+                <a data-ajax="false" href="product2.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
             </div>
         </div>
     </div>
 
     <div class="ui-block-d" id="products-cards" style="width:25%;">
-        <div class="card" style="height:400px">
+        <div class="card" style="height:475px">
             <img src="./images/products/product4.jpg" alt="Avatar" class="cardImg">
             <div class="cardContainer" style="text-align:center">
-                <h2><b>L'Oreal Blackhead Skin Rescue Kit, Kiwi Sugar Scrub 50 ml and Blemish Clay Mask 50 ml</b></h2>
-
+                <h2><b>L'Oreal Blackhead Skin Rescue Kit 50 ml</b></h2>
+                <p>Rs 925.00 / Unit</p>
+                <a data-ajax="false" href="product2.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
             </div>
         </div>
     </div>
+    <button style="margin-left: auto;margin-right: auto; width: 250; display: block;border-radius: 100px;" class="ui-btn-active">View More</button>
+
 </div>
 
 <!-- Top Sellings -->
@@ -112,10 +125,10 @@
 <div style="border: none;" data-role="footer" data-position="fixed">
     <div data-role="navbar">
         <ul>
-            <li><a href="#" data-icon="home" class="ui-btn-active">Home</a></li>
-            <li><a href="favourites.php" data-icon="star">Favs</a></li>
-            <li><a href="#" data-icon="gear">Setup</a></li>
-            <li><a href="#" data-icon="gear">User</a></li>
+            <li><a href="index.php" data-ajax="false" data-icon="home" class="ui-btn-active">Home</a></li>
+            <li><a href="poi.php" data-ajax="false" data-icon="star">Favs</a></li>
+            <li><a href="favourites.php" data-ajax="false" data-icon="gear">Setup</a></li>
+            <li><a href="user.php" data-ajax="false" data-icon="gear">User</a></li>
         </ul>
     </div>
 </div>
@@ -123,6 +136,34 @@
 
 <script>
     jQuery(document).ready(function($) {
+
+        var userInfo = {
+            "username": "Charaka",
+            "weekPoints": 22,
+            "points": 150
+        };
+
+        var pointsInfo = [{
+                "userName": "Charaka",
+                "weekPoints": 22,
+            },
+            {
+                "userName": "Navodya",
+                "weekPoints": 40,
+            },
+            {
+                "userName": "Himasha",
+                "weekPoints": 30,
+            },
+            {
+                "userName": "Uvindu",
+                "weekPoints": 25,
+            }
+        ]
+
+        //Store the object in local storage
+        localStorage.setItem('loggedUser', JSON.stringify(userInfo));
+        localStorage.setItem('pointInfo', JSON.stringify(pointsInfo));
 
         setInterval(function() {
             moveRight();
@@ -176,6 +217,8 @@
 
 <script>
     $(function() {
+
+
 
         /* SET PARAMETERS */
         var change_img_time = 3000;

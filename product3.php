@@ -63,12 +63,11 @@ $avg = $total / $numR;
     </div>
     <div class="ui-block-b" style="width:70%; padding:5%;">
         <h1 style="font-family: Tahoma, sans-serif;font-size: 25px; color:#1128A4;"><b>Corn Flasks</b></h1>
-        <p id="para1">With our continuous commitment of providing healthy
-            products, we are also offering our Strawberry Jam that we<br>
-            manufacture and supply. Our strawberry jam is made from fresh
-            strawberry pulps that are naturally grown in the country.<br>
-            These are delicately handpicked and carefully processed to provide
-            one of the freshest and tastiest strawberry jams in the market.</p>
+        <p id="para1">Corn flakes are a packaged cereal product formed from small toasted flakes of corn, 
+            usually served cold with milk and sometimes sugar.<br> 
+            Since their original production, the plain flakes have been flavored with salt, sugar, 
+            and malt, and many successive products with additional<br>
+            ingredients have been manufactured such as sugar frosted flakes and honey & nut corn flakes.</p>
         <h1 style="font-family: Tahoma, sans-serif;font-size: 35px; color: #40bf44;"><b>Rs.250</b></h1>
         <div>
             <i class="fa fa-star fa-2x" data-index="0"></i>

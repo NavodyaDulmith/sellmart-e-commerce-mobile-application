@@ -80,6 +80,7 @@ include 'header.php';?>
         <div class="summary-checkout">
           <button class="checkout-cta">Go to Secure Checkout</button>
         </div>
+        <a href="redeemPoints.php"> <span style="font-size:10px; color:blue; text-align:center;">Want to redeem Sell Mart points?</span></a>
       </div>
     </aside>
   </main>

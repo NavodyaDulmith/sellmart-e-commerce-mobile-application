@@ -19,7 +19,7 @@ line-height: 100%;">
 
         <div style="text-align: center;font-size: large">Thank You for your payment!
         </div>
-        <a href="index.php" style="text-decoration:none" ;>Go back to home page</a>
+        <a href="index.php" style="text-decoration:none";>Go back to home page</a>
         <hr>
     </div>
 
