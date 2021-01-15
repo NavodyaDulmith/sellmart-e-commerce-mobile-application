@@ -40,7 +40,7 @@
 <div>
     <h3>Payment Details</h3>
 
-    <div class="ui-grid-a" style="background-color:#114ca41c;">
+    <div class="ui-grid-a" style="background-image: linear-gradient(to right top, #9f9cd1, #6db5eb, #23cde8, #45dec8, #98e89a);">
         <h4 style="display: flex;align-items: center;justify-content: center;">Sub Total<span>=</span><span> 575.00</span></h6>
             <h4 style="display: flex;align-items: center;justify-content: center;">Delivery <span>=</span> <span> 220.00</span></h6>
                 <h4 style="display: flex;align-items: center;justify-content: center;">Total<span>=</span><span> 795.00</span></h6>
