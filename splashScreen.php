@@ -29,7 +29,10 @@
 
   <div data-role="page" id="pageTwo">
     <div>
-      <img class="splashScreen1" style="height:450; padding-bottom:0" src="images/11first.png" />
+      <img class="splashScreen1" style="margin: auto;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;" src="images/11first.png" />
     </div>
     <div>
       <label class="label1" style="font-weight: bold; font-size: 23px; line-height: 20px">EFFORTLESS</label>
@@ -56,7 +59,10 @@
   <!-- 2 nd splashScreen -->
   <div data-role="page" id="pageThree">
     <div>
-      <img class="splashScreen2" style="height:400; padding-bottom:0" src="images/33.jpg" />
+      <img class="splashScreen2" style="margin: auto;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;" src="images/33.jpg" />
     </div>
     <br /><br />
     <div>
@@ -82,7 +88,10 @@
   <!-- 3rd splash screen -->
   <div data-role="page" id="pageFour" style="background-color: white">
     <div>
-      <img class="splashScreen2" style="height:400; padding-bottom:0" src="images/second.jpg" />
+      <img class="splashScreen2" style="margin: auto;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;" src="images/second.jpg" />
     </div>
     <br />
     <br />
