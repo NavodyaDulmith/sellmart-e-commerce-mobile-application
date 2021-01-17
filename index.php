@@ -135,6 +135,11 @@
 <!-- fixednavbarbottom -->
 
 <script>
+    $(document).on('click', '.ui-btn-active', function(e) {
+        window.location.href="sortingPOI.php";
+
+    });
+
     jQuery(document).ready(function($) {
 
 
