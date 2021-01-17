@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-    <script src="js/header.js"></script>
 
     <style>
         #logo {
@@ -57,7 +56,6 @@
             <li><a data-ajax="false" href="ar.php"><img src="images/menu/Group_62.png" class="ui-li-icon">Offers</a></li>
             <li><a data-ajax="false" href="favourites.php"><img src="images/menu/Group_60.png" class="ui-li-icon">Favourites</a></li>
             <li><a data-ajax="false" href="#panel-fixed-page2"><img src="images/menu/Group_68.png" class="ui-li-icon">Settings</a></li>
-            <li><a data-ajax="false" href="#panel-fixed-page2"><img src="images/menu/Group_64.png" class="ui-li-icon">Notifications</a></li>
             <li><a data-ajax="false" href="aboutus.php"><img src="images/menu/Group_66.png" class="ui-li-icon">About Us</a></li>
             <br />
             <li><a href="#panel-fixed-page2">Log Out</a></li>

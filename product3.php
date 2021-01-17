@@ -68,7 +68,7 @@ $avg = $total / $numR;
             Since their original production, the plain flakes have been flavored with salt, sugar, 
             and malt, and many successive products with additional<br>
             ingredients have been manufactured such as sugar frosted flakes and honey & nut corn flakes.</p>
-        <h1 style="font-family: Tahoma, sans-serif;font-size: 35px; color: #40bf44;"><b>Rs.250</b></h1>
+        <h1 style="font-family: Tahoma, sans-serif;font-size: 35px; color: #40bf44;"><b>Rs.610</b></h1>
         <div>
             <i class="fa fa-star fa-2x" data-index="0"></i>
             <i class="fa fa-star fa-2x" data-index="1"></i>

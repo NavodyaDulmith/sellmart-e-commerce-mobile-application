@@ -25,7 +25,7 @@ if (isset($_GET['qr_button_clicked'])) {
 	        <div class="ui-block-a">
                 <div class="ui-grid-a">
 	                <div class="ui-block-a" style ="text-align:center;"><img src="images/sellMart/cornFlakes.jpg" style="width:60%; height:60%" /></div>
-                    <div class="ui-block-b"><span style="font-family: Tahoma; color: #ffffff"><p style="font-size:16px;">Corn Flakes</br>(400g)</p>
+                    <div class="ui-block-b"><span style="color: #ffffff"><p style="font-size:16px;">Corn Flakes</br>(400g)</p>
                     <p style= "font-size:10px;">10 points per item</p>
                     </div>
                  </div>
@@ -33,7 +33,7 @@ if (isset($_GET['qr_button_clicked'])) {
 	        <div class="ui-block-b">
                 <div class="ui-grid-a">
 	                <div class="ui-block-a" style ="text-align:center;"><img src="images/sellMart/chips.jpg" style="width:60%; height:60%" /></div>
-                    <div class="ui-block-b"><span style="font-family: Tahoma; color: #ffffff"><p style="font-size:16px;">Potato Chips</br>(200g)</p>
+                    <div class="ui-block-b"><span style="color: #ffffff"><p style="font-size:16px;">Potato Chips</br>(200g)</p>
                     <p style= "font-size:10px;">15 points per item</p>
                     </div>
                 </div>

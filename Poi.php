@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="library/jquery/jquery.mobile.structure-1.4.5.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
     <link rel="stylesheet" href="library/materialize/css/materialize.min.css" />
+    <link rel="stylesheet" href="css/StarRating.css">
+    <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
     <!-- Scripts -->
     <script src="/library/jquery/jquery-1.11.1.js"></script>

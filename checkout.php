@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
 
-<h4>Prducts</h4>
+<h4>Products</h4>
 
 <hr>
 <!-- products -->
@@ -45,8 +45,35 @@
             <h4 style="display: flex;align-items: center;justify-content: center;">Delivery <span>=</span> <span> 220.00</span></h6>
                 <h4 style="display: flex;align-items: center;justify-content: center;">Total<span>=</span><span> 795.00</span></h6>
 
-                    <button style="margin-left: auto;margin-right: auto; width: 250; display: block;border-radius: 100px;" class="ui-btn-active">Purchase</button>
+                    <button id="customButton" style="margin-left: auto;margin-right: auto; width: 250; display: block;border-radius: 100px;" class="ui-btn-active" >Purchase</button>
     </div>
 
 </div>
+
+<script src="https://checkout.stripe.com/checkout.js"></script>
+<script>
+     var handler = StripeCheckout.configure({
+        key: 'pk_test_TYooMQauvdEDq54NiTphI7jx',
+        image: 'https://stripe.com/img/documentation/checkout/marketplace.png',
+        locale: 'auto',
+        token: function (token) {
+            window.location.href = "thankyou.php";
+            // You can access the token ID with `token.id`.
+            // Get the token ID to your server-side code for use.
+        }
+    });
+
+    document.getElementById('customButton').addEventListener('click', function (e) {
+        // Open Checkout with further options:
+        handler.open({
+            name: 'SellMart',
+            description: 'Booking Payment',
+            zipCode: true,
+           // amount: total * 100,
+            currency: 'gbp'
+        });
+        e.preventDefault();
+    });
+</script>
+
 <?php include 'footer.php'; ?>
