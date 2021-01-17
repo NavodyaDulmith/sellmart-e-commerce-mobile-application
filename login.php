@@ -21,7 +21,7 @@
 
 
 
-		<div data-role="main" class="ui-content main-content" align="center">
+		<div data-role="main" class="ui-content main-content"; align="center">
 			<div class="ui-field-contain content">
 
 				<form method="POST" class="input-form" name="loginForm" onsubmit="return ValidateForm()">
@@ -30,7 +30,7 @@
 					</div>
 					<input type="email" name="email" id="email" placeholder="Your email..">
 					<div id="email_error"></div>
-					<input type="password" name="password" id="password" placeholder="Password..">
+					<input type="password" name="password" id="password" placeholder="Password.." >
 					<div id="password_error"></div>
 
 					<input type="checkbox" style="margin-top: -5px;font-size:150%; width:15px; margin-left: -6px;" id="remember-me">
@@ -40,12 +40,12 @@
 					<div>
 						<h6> <a href="#" style="text-decoration: none; color:#1128A4;" id="FP">FORGOT PASSWORD?</a></h6>
 					</div>
-					<button class="login" style=" margin-bottom: 2px; border-radius: 100px;width:225px;background-color:#1128A4;color:white;border-radius: 100px;height:35px;text-align: center;" id="LogingBtn" onclick="submitBTN_validate()">LOGIN</button>
+					<button class="login" style=" margin-bottom: 2px; border-radius: 100px;width:225px;background-color:#1128A4;color:white;border-radius: 100px;height:35px;text-align: center; padding:0" id="LogingBtn" onclick="submitBTN_validate()">LOGIN</button>
 					<div class="row" >
 						<div style=" width: 25%;float:left">
-							<h5 style="margin-top: 5px; margin-left: 117px; white-space: nowrap;">Not Signed up yet?</h5>
+							<h5 style="margin-top: 10px; margin-left: 117px; white-space: nowrap;">Not Signed up yet?</h5>
 						</div>
-						<div style=" margin-top: 5px; width: 50%;float:left;">
+						<div style=" margin-top: 10px; width: 50%;float:left;">
 							<h4><a style="text-decoration: none; white-space: nowrap;" href="#" id="SU">SIGN UP NOW</a></h4>
 						</div>
 
@@ -55,16 +55,16 @@
 				<div class="row">
 					<h4>Sign in with social media</h4>
 					<div class="column">
-						<img style="width: 28px;height: 28px;" src="images/google.jpg">
+						<img style="width: 33px;height: 33px;" src="images/google.jpg">
 					</div>
 					<div class="column" >
-					<img style="width: 28px;height: 28px;" src="images/twitter.png">
+					<img style="width: 33px;height: 33px;" src="images/twitter.png">
 					</div>
 					<div class="column" >
-					<img style="width: 28px;height: 28px;" src="images/facebook.png">
+					<img style="width: 33px;height: 33px;" src="images/facebook.png">
 					</div>
 					<div class="column" >
-					<img style="width: 28px;height: 28px;" src="images/linkedin.png">
+					<img style="width: 33px;height: 33px;" src="images/linkedin.png">
 					</div>
 				</div>
 			</div>
