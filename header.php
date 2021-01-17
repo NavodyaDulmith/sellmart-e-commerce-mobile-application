@@ -59,7 +59,7 @@
             <li><a data-ajax="false" href="#panel-fixed-page2"><img src="images/menu/Group_68.png" class="ui-li-icon">Settings</a></li>
             <li><a data-ajax="false" href="aboutus.php"><img src="images/menu/Group_66.png" class="ui-li-icon">About Us</a></li>
             <br />
-            <li><a href="#panel-fixed-page2">Log Out</a></li>
+            <li><a  data-ajax="false" href="login.php">Log Out</a></li>
         </ul>
     </div>
     <!-- menu panel -->
