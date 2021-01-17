@@ -53,7 +53,7 @@
 <script src="https://checkout.stripe.com/checkout.js"></script>
 <script>
      var handler = StripeCheckout.configure({
-        key: 'sk_test_51I9spMLej1MymB6FsTr289t2A93M4vWW30j9GlNm2pb7OCky72gTTUderavd1vdV5679bwgfY867UvjI0cJrrIgH00cEc50mqX',
+        key: 'pk_test_TYooMQauvdEDq54NiTphI7jx',
         image: 'https://stripe.com/img/documentation/checkout/marketplace.png',
         locale: 'auto',
         token: function (token) {
@@ -69,7 +69,7 @@
             name: 'SellMart',
             description: 'Booking Payment',
             zipCode: true,
-            // amount: total * 100,
+           // amount: total * 100,
             currency: 'gbp'
         });
         e.preventDefault();
