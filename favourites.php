@@ -7,11 +7,8 @@
 <link rel="shortcut icon" href="images/Logo.png">
 
 <!-- the three things that jQuery Mobile needs to work -->
-<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
 <link rel="stylesheet" href="css/favourite.css">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
-<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 <scripttype="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 <scripttype="text/javascript"></script>
 </head>
