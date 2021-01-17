@@ -9,13 +9,13 @@
   justify-content: center;">
 
     <img style="height: 80px;
-    width: 75px;max-width: 100%;" src="./images/products/product5.jpg" alt="Avatar" class="cardImg">
+    width: 75px;max-width: 100%;" src="./images/products/p3.png" alt="Avatar" class="cardImg">
     <p style="float: right;
-  padding-left: 20px;"><b>Viola Skin Retinol Serum & Vitamin E</b></p>
+  padding-left: 20px;"><b>MD Strawberry Jam</b></p>
 
     <div>
-        <p style="float: right; color:orangered;
-  padding-left: 20px;">Rs.575.00</p>
+        <p style="float: right; color:green;
+  padding-left: 20px;">Rs.315.00</p>
     </div>
 </div>
 <!-- products -->
@@ -41,9 +41,9 @@
     <h3>Payment Details</h3>
 
     <div class="ui-grid-a" style="background-image: linear-gradient(to right top, #9f9cd1, #6db5eb, #23cde8, #45dec8, #98e89a);">
-        <h4 style="display: flex;align-items: center;justify-content: center;">Sub Total<span>=</span><span> 575.00</span></h6>
+        <h4 style="display: flex;align-items: center;justify-content: center;">Sub Total<span>=</span><span> 315.00</span></h6>
             <h4 style="display: flex;align-items: center;justify-content: center;">Delivery <span>=</span> <span> 220.00</span></h6>
-                <h4 style="display: flex;align-items: center;justify-content: center;">Total<span>=</span><span> 795.00</span></h6>
+                <h4 style="display: flex;align-items: center;justify-content: center;">Total<span>=</span><span> 535.00</span></h6>
 
                     <button id="customButton" style="margin-left: auto;margin-right: auto; width: 250; display: block;border-radius: 100px;" class="ui-btn-active" >Purchase</button>
     </div>

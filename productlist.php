@@ -31,11 +31,11 @@ include 'header.php';?>
             <p>Product Code - 232321939</p>
           </div>
         </div>
-        <div class="price">375.00</div>
+        <div class="price">325.00</div>
         <div class="quantity">
           <input type="number" value="1" min="1" class="quantity-field">
         </div>
-        <div class="subtotal">375.00</div>
+        <div class="subtotal">325.00</div>
         <div class="remove">
           <button>Remove</button>
         </div>
@@ -47,7 +47,7 @@ include 'header.php';?>
         <div class="summary-total-items"><span class="total-items"></span> Items in your Bag</div>
         <div class="summary-subtotal">
           <div class="subtotal-title">Subtotal</div>
-          <div class="subtotal-value final-value" id="basket-subtotal">375.00</div>
+          <div class="subtotal-value final-value" id="basket-subtotal">325.00</div>
           <div class="summary-promo">
             <div class="promo-title">Discount</div>
             <div class="promo-value final-value" id="basketpromo"></div>
