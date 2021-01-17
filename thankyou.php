@@ -28,6 +28,7 @@ line-height: 100%;">
 <script>
     jQuery(document).ready(function($) {
 
+        sessionStorage.clear();
         console.log($(window).width());
         if ($(window).width() < 400) {
             document.getElementById("portrait").style.visibility = "visible";
