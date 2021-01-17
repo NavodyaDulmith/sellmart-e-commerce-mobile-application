@@ -6,7 +6,7 @@ $(document).delegate('.ui-page', 'pageshow', function () {
 });
 
 
-$(document).on('click', '.redeem', function() {
+$(document).on('click', '.redeem', function(e) {
 
     var userInfo = JSON.parse(localStorage.getItem("loggedUser"));
     var userName = userInfo.username;
@@ -29,9 +29,10 @@ $(document).on('click', '.redeem', function() {
             "weekPoints" :userInfo.weekPoints,
             "points" : remainingPoints
         }
-        console.log(remainingPoints);
         localStorage.setItem('loggedUser', JSON.stringify(newUserInfo) );
-        console.log(localStorage);
-        // $.mobile.pageContainer.pagecontainer("change","redeemPoints.php",{reloadPage:true});
+        sessionStorage.setItem('pointsRedeemed',$("#pointsAmnt").val());
+        console.log(sessionStorage);
+        window.location.href="redeemSuccess.php";
+        return false;
     }
 });
