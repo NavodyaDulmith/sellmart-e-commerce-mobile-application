@@ -480,7 +480,7 @@ a.es-button, button.es-button {
                       <tr style="border-collapse:collapse">
                         <td align="center" valign="top" style="padding:0;Margin:0;width:560px"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                             <tr style="border-collapse:collapse">
-                              <td align="center" style="padding:0;Margin:0;padding-bottom:10px;font-size:0px"><img class="adapt-img" src="https://nuzubl.stripocdn.email/content/guids/CABINET_fca5a63ad4cea097629a87a17757e13c/images/62211610263239892.png" alt style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" width="65" height="54"></td>
+                              <td align="center" style="padding:0;Margin:0;padding-bottom:10px;font-size:0px"><img class="adapt-img" src="https://drive.google.com/file/d/12USEmP68UO9yEHCONsgefgWZ-wJrFWPP/view?usp=sharing" alt style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" width="65" height="54"></td>
                             </tr>
                           </table></td>
                       </tr>
