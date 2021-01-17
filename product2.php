@@ -69,7 +69,7 @@ $avg = $total / $numR;
             strawberry pulps that are naturally grown in the country.<br>
             These are delicately handpicked and carefully processed to provide
             one of the freshest and tastiest strawberry jams in the market.</p>
-        <h1 style="font-family: Tahoma, sans-serif;font-size: 35px; color: #40bf44;"><b>Rs.80</b></h1>
+        <h1 style="font-family: Tahoma, sans-serif;font-size: 35px; color: #40bf44;"><b>Rs.375</b></h1>
         <div>
             <i class="fa fa-star fa-2x" data-index="0"></i>
             <i class="fa fa-star fa-2x" data-index="1"></i>

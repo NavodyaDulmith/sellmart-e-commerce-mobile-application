@@ -126,9 +126,9 @@
     <div data-role="navbar">
         <ul>
             <li><a href="index.php" data-ajax="false" data-icon="home" class="ui-btn-active">Home</a></li>
-            <li><a href="poi.php" data-ajax="false" data-icon="star">Products</a></li>
-            <li><a href="favourites.php" data-ajax="false" data-icon="shop">Favs</a></li>
-            <li><a href="user.php" data-ajax="false" data-icon="gear">User</a></li>
+            <li><a href="poi.php" data-ajax="false" data-icon="grid">Top Products</a></li>
+            <li><a href="favourites.php" data-ajax="false" data-icon="star">Favourites</a></li>
+            <li><a href="productList.php" data-ajax="false" data-icon="shop">Cart</a></li>
         </ul>
     </div>
 </div>
