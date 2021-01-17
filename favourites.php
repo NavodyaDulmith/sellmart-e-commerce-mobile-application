@@ -26,10 +26,6 @@
     <h2>Your Favourites List</h2>
   </div>
   <div class="filter">
-    <div class="product-filter"> <img class="filter-icon" src="images/filter.png"/>
-      <p>Sort & Filter</p>
-      <p id="checkbox-label">Select All</p>
-    </div>
     <label class="select-all-checkbox">
       <input class="select-all" id="select-all" type="checkbox" data-role="none">
       <span class="checkmark"></span> </label>
@@ -76,4 +72,4 @@
 <script type="text/javascript" src="data/products.json" ></script> 
 <script type="text/javascript" src="js/favscript.js" ></script>
 </body>
-</html>
+<?php include 'footer.php' ?>
