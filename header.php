@@ -52,6 +52,7 @@
             <br />
             <li id="white-list"><a data-ajax="false" href="index.php"><img src="images/menu/Group_72.png" class="ui-li-icon">Home</a></li>
             <li><a data-ajax="false" href="poi.php"><img src="images/menu/Group_70.png" class="ui-li-icon">POI</a></li>
+            <li><a data-ajax="false" href="productlist.php"><img src="images/menu/cart.png" class="ui-li-icon">Cart</a></li>
             <li><a data-ajax="false" href="gamification.php"><img src="images/menu/Group_57.png" class="ui-li-icon">SellMart Points</a></li>
             <li><a data-ajax="false" href="ar.php"><img src="images/menu/Group_62.png" class="ui-li-icon">Offers</a></li>
             <li><a data-ajax="false" href="favourites.php"><img src="images/menu/Group_60.png" class="ui-li-icon">Favourites</a></li>
