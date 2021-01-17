@@ -15,9 +15,13 @@ include 'header.php';
 
 <script>
     var data = [
-        {category: "british fish low-budget", picture: "sortingPOI/Carrot.jpg", name: "Carrot 1Kg", description: "Fresh carrot from Nuwara Eliya", price: "100.00"},
-        {category: "spanish high-budget", picture: "sortingPOI/chickenCubes.jpg", name: "Chicken Cubes", description: "Navodya Chicken Cubes", price: "300.00"},
-        {category: "american medium-budget", picture: "sortingPOI/kome.jpg", name: "Munchee Kome", description: "Delightful Cookies", price: "150.00"}
+        {category: "food", picture: "sortingPOI/Carrot.jpg", name: "Carrot 1Kg", description: "Fresh carrot from Nuwara Eliya", price: "100.00"},
+        {category: "food", picture: "sortingPOI/chickenCubes.jpg", name: "Chicken Cubes", description: "Navodya Chicken Cubes", price: "300.00"},
+        {category: "food", picture: "sortingPOI/kome.jpg", name: "Munchee Kome", description: "Delightful Cookies", price: "150.00"},
+        {category: "food", picture: "sortingPOI/jamBottle.jpg", name: "Mixed Fruit Jam", description: "MD Mixed Fruit Jam 225g", price: "180.00"},
+        {category: "food", picture: "sortingPOI/chips.jpg", name: "Potato Chips", description: "Jacker Barbecue Wavy Potato Chips 60g", price: "420.00"},
+        {category: "cosmetics", picture: "sortingPOI/cream1.jpg", name: "Facial Scrub", description: "Whitening Scrub 200g", price: "800.00"},
+        {category: "cosmetics", picture: "sortingPOI/cream2.jpg", name: "Facial Cream", description: "Garnier Skin Whitening Cream", price: "1150.00"}
     ];
 
     function updateListview(sorting){
