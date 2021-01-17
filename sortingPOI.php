@@ -11,6 +11,8 @@ include 'header.php';
 </body>
 </html>
 
+<?php include 'footer.php' ?>
+
 <script>
     var data = [
         {category: "british fish low-budget", picture: "sortingPOI/Carrot.jpg", name: "Carrot 1Kg", description: "Fresh carrot from Nuwara Eliya", price: "100.00"},

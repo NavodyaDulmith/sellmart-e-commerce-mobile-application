@@ -1,6 +1,5 @@
 <?php
 include 'header.php';?>
-<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -32,42 +31,23 @@ include 'header.php';?>
             <p>Product Code - 232321939</p>
           </div>
         </div>
-        <div class="price">26.00</div>
-        <div class="quantity">
-          <input type="number" value="4" min="1" class="quantity-field">
-        </div>
-        <div class="subtotal">104.00</div>
-        <div class="remove">
-          <button>Remove</button>
-        </div>
-      </div>
-      <div class="basket-product">
-        <div class="item">
-          <div class="product-image">
-            <img src="images/jam3.png" alt="Placholder Image 2" class="product-frame">
-          </div>
-          <div class="product-details">
-            <h1><strong><span class="item-quantity">1</span>MD Strawberry Jam</strong></h1>
-            <p><strong>Regular</strong></p>
-            <p>Product Code - 232321939</p>
-          </div>
-        </div>
-        <div class="price">26.00</div>
+        <div class="price">325.00</div>
         <div class="quantity">
           <input type="number" value="1" min="1" class="quantity-field">
         </div>
-        <div class="subtotal">26.00</div>
+        <div class="subtotal">325.00</div>
         <div class="remove">
           <button>Remove</button>
         </div>
       </div>
+
     </div>
     <aside>
       <div class="summary">
         <div class="summary-total-items"><span class="total-items"></span> Items in your Bag</div>
         <div class="summary-subtotal">
           <div class="subtotal-title">Subtotal</div>
-          <div class="subtotal-value final-value" id="basket-subtotal">130</div>
+          <div class="subtotal-value final-value" id="basket-subtotal">325.00</div>
           <div class="summary-promo">
             <div class="promo-title">Discount</div>
             <div class="promo-value final-value" id="basketpromo"></div>
@@ -86,7 +66,6 @@ include 'header.php';?>
   </main>
 </body>
 
-</html>
 <?php
 
 include 'footer.php'; ?>

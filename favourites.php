@@ -7,11 +7,8 @@
 <link rel="shortcut icon" href="images/Logo.png">
 
 <!-- the three things that jQuery Mobile needs to work -->
-<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
 <link rel="stylesheet" href="css/favourite.css">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
-<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 <scripttype="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 <scripttype="text/javascript"></script>
 </head>
@@ -29,10 +26,6 @@
     <h2>Your Favourites List</h2>
   </div>
   <div class="filter">
-    <div class="product-filter"> <img class="filter-icon" src="images/filter.png"/>
-      <p>Sort & Filter</p>
-      <p id="checkbox-label">Select All</p>
-    </div>
     <label class="select-all-checkbox">
       <input class="select-all" id="select-all" type="checkbox" data-role="none">
       <span class="checkmark"></span> </label>
@@ -79,4 +72,4 @@
 <script type="text/javascript" src="data/products.json" ></script> 
 <script type="text/javascript" src="js/favscript.js" ></script>
 </body>
-</html>
+<?php include 'footer.php' ?>

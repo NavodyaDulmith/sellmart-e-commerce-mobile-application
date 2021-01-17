@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="library/jquery/jquery.mobile.structure-1.4.5.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
     <link rel="stylesheet" href="library/materialize/css/materialize.min.css" />
+    <link rel="stylesheet" href="css/StarRating.css">
+    <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
     <!-- Scripts -->
     <script src="/library/jquery/jquery-1.11.1.js"></script>
@@ -48,7 +51,7 @@
             <h2>Corn Flasks</h2>
             <p>Rs.250</p>
         </a>
-        <a href="product1.php" data-ajax="false" class="ui-btn ui-btn-inline ui-btn-b" data-theme="b">Buy It</a>
+        <a href="product3.php" data-ajax="false" class="ui-btn ui-btn-inline ui-btn-b" data-theme="b">Buy It</a>
         <p class="collapsibleComment">Comment <i class="fa fa-angle-down" aria-hidden="true"></i></p>
 
         <div style="padding: 0 18px;display: none;overflow: hidden;background-color: rgb(249 249 249);width: 235;" class="contentComment">
@@ -68,8 +71,7 @@
             <h2>Potato Chips</h2>
             <p>Rs.80</p>
         </a>
-        <a href="product.php" target="_blank" class="ui-btn ui-btn-inline ui-btn-b" data-theme="b">Buy It</a>
-        <a href="product.php" data-ajax="false" class="ui-btn ui-btn-inline ui-btn-b" data-theme="b">Buy It</a>
+        <a href="product2.php" data-ajax="false" class="ui-btn ui-btn-inline ui-btn-b" data-theme="b">Buy It</a>
         <p class="collapsibleComment">Comment <i class="fa fa-angle-down" aria-hidden="true"></i></p>
 
         <div style="padding: 0 18px;display: none;overflow: hidden;background-color: rgb(249 249 249);width: 235;" class="contentComment">
@@ -89,7 +91,7 @@
             <h2>Wolfgang Amadeus Phoenix</h2>
             <p>Phoenix</p>
         </a>
-        <a href="product.php" data-ajax="false" class="ui-btn ui-btn-inline ui-btn-b" data-theme="b">Buy It</a>
+        <a href="product4.php" data-ajax="false" class="ui-btn ui-btn-inline ui-btn-b" data-theme="b">Buy It</a>
         <p class="collapsibleComment">Comment <i class="fa fa-angle-down" aria-hidden="true"></i></p>
 
         <div style="padding: 0 18px;display: none;overflow: hidden;background-color: rgb(249 249 249);width: 235;" class="contentComment">
