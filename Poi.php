@@ -51,7 +51,7 @@
             <h2>Corn Flasks</h2>
             <p>Rs.250</p>
         </a>
-        <a href="product1.php" data-ajax="false" class="ui-btn ui-btn-inline ui-btn-b" data-theme="b">Buy It</a>
+        <a href="product3.php" data-ajax="false" class="ui-btn ui-btn-inline ui-btn-b" data-theme="b">Buy It</a>
         <p class="collapsibleComment">Comment <i class="fa fa-angle-down" aria-hidden="true"></i></p>
 
         <div style="padding: 0 18px;display: none;overflow: hidden;background-color: rgb(249 249 249);width: 235;" class="contentComment">
@@ -71,8 +71,7 @@
             <h2>Potato Chips</h2>
             <p>Rs.80</p>
         </a>
-        <a href="product.php" target="_blank" class="ui-btn ui-btn-inline ui-btn-b" data-theme="b">Buy It</a>
-        <a href="product.php" data-ajax="false" class="ui-btn ui-btn-inline ui-btn-b" data-theme="b">Buy It</a>
+        <a href="product2.php" data-ajax="false" class="ui-btn ui-btn-inline ui-btn-b" data-theme="b">Buy It</a>
         <p class="collapsibleComment">Comment <i class="fa fa-angle-down" aria-hidden="true"></i></p>
 
         <div style="padding: 0 18px;display: none;overflow: hidden;background-color: rgb(249 249 249);width: 235;" class="contentComment">
@@ -92,7 +91,7 @@
             <h2>Wolfgang Amadeus Phoenix</h2>
             <p>Phoenix</p>
         </a>
-        <a href="product.php" data-ajax="false" class="ui-btn ui-btn-inline ui-btn-b" data-theme="b">Buy It</a>
+        <a href="product4.php" data-ajax="false" class="ui-btn ui-btn-inline ui-btn-b" data-theme="b">Buy It</a>
         <p class="collapsibleComment">Comment <i class="fa fa-angle-down" aria-hidden="true"></i></p>
 
         <div style="padding: 0 18px;display: none;overflow: hidden;background-color: rgb(249 249 249);width: 235;" class="contentComment">
