@@ -59,21 +59,21 @@ img {
 h1 {
   color: black;
   font-family: "Lucida Console";
-  font-size: 80px;
+  font-size: 60px;
 }
 
 h2 {
   padding-top: 20px;
   color: #1128A4;
   font-family: "Lucida Console";
-  font-size: 50px; 
+  font-size: 40px; 
 }
 </style>
 </head>
 <body>
 
-<div class="container">
-  <img src="images/shoppingback.jpg" alt="Snow" style="width:100%; height:400px">
+<div class="ui-block-a">
+<img src="images/shoppingback.jpg" alt="Snow" style="width:100%; height:100px">
   <div class="top-left">
   <h1>About Us</h1>
   </div>
@@ -83,8 +83,8 @@ h2 {
   <div style="display:flex; justify-content:left; padding-left: 50px; padding-top:20px; align-items:center;">
   <h2>What We Do...</h2>
     </div>
-    <div style="display:flex; justify-content:center; padding-left: 50px; padding-top:40px; align-items:center;">
-    <p style="font-family: Lucida Console;   font-size: 30px; ">We are a online marketplace for grocery<br>
+    <div style="display:flex; justify-content:center; padding-left: 40px; padding-top:40px; align-items:center;">
+    <p style="font-family: Lucida Console;   font-size: 20px; ">We are a online marketplace for grocery<br>
     and retail item shopping. We will deliver<br> 
     the products for the best price and the<br> 
     best quality in market....
@@ -101,7 +101,7 @@ h2 {
             </div>
         </div>
     </div>
-<div style="display:flex; justify-content:center; padding-left: 50px; padding-top:20px; padding-bottom:30px; align-items:center;">
+<div style="display:flex; justify-content:center; padding-left: 40px; padding-top:20px; padding-bottom:30px; align-items:center;">
   <h2 style="color: #1128A4;">Where you can find us..</h2>
     </div>
 <div id = "map">
