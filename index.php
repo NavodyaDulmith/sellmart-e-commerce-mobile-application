@@ -115,7 +115,7 @@
             </div>
         </div>
     </div>
-    <button style="margin-left: auto;margin-right: auto; width: 250; display: block;border-radius: 100px;" class="ui-btn-active">View More</button>
+    <button style="margin-left: auto;margin-right: auto; width: 250; display: block;border-radius: 100px;" class="ui-btn-active" id="viewMore">View More</button>
 
 </div>
 
@@ -135,35 +135,13 @@
 <!-- fixednavbarbottom -->
 
 <script>
+    $(document).on('click', '#viewMore', function(e) {
+        window.location.href="sortingPOI.php";
+
+    });
+
     jQuery(document).ready(function($) {
 
-        var userInfo = {
-            "username": "Charaka",
-            "weekPoints": 22,
-            "points": 150
-        };
-
-        var pointsInfo = [{
-                "userName": "Charaka",
-                "weekPoints": 22,
-            },
-            {
-                "userName": "Navodya",
-                "weekPoints": 40,
-            },
-            {
-                "userName": "Himasha",
-                "weekPoints": 30,
-            },
-            {
-                "userName": "Uvindu",
-                "weekPoints": 25,
-            }
-        ]
-
-        //Store the object in local storage
-        localStorage.setItem('loggedUser', JSON.stringify(userInfo));
-        localStorage.setItem('pointInfo', JSON.stringify(pointsInfo));
 
         setInterval(function() {
             moveRight();
