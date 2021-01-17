@@ -115,7 +115,7 @@
             </div>
         </div>
     </div>
-    <button style="margin-left: auto;margin-right: auto; width: 250; display: block;border-radius: 100px;" class="ui-btn-active">View More</button>
+    <button style="margin-left: auto;margin-right: auto; width: 250; display: block;border-radius: 100px;" class="ui-btn-active" id="viewMore">View More</button>
 
 </div>
 
@@ -135,7 +135,7 @@
 <!-- fixednavbarbottom -->
 
 <script>
-    $(document).on('click', '.ui-btn-active', function(e) {
+    $(document).on('click', '#viewMore', function(e) {
         window.location.href="sortingPOI.php";
 
     });
