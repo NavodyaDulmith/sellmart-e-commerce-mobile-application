@@ -2,7 +2,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>SellMart</title>
 
-    <link rel="icon" type="image/png" href="./images/fav.png" />
+    <link rel="icon" type="image/png" href="./images/logo.png" />
     <link rel="stylesheet" href="themes/whitebtn.min.css" />
     <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
     <link rel="stylesheet" href="css/jquery-steps.css">
