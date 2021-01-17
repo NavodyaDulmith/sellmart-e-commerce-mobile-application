@@ -15,13 +15,13 @@ include 'header.php';
 
 <script>
     var data = [
-        {category: "food", picture: "sortingPOI/Carrot.jpg", name: "Carrot 1Kg", description: "Fresh carrot from Nuwara Eliya", price: "100.00"},
-        {category: "food", picture: "sortingPOI/chickenCubes.jpg", name: "Chicken Cubes", description: "Navodya Chicken Cubes", price: "300.00"},
-        {category: "food", picture: "sortingPOI/kome.jpg", name: "Munchee Kome", description: "Delightful Cookies", price: "150.00"},
-        {category: "food", picture: "sortingPOI/jamBottle.jpg", name: "Mixed Fruit Jam", description: "MD Mixed Fruit Jam 225g", price: "180.00"},
-        {category: "food", picture: "sortingPOI/chips.jpg", name: "Potato Chips", description: "Jacker Barbecue Wavy Potato Chips 60g", price: "420.00"},
-        {category: "cosmetics", picture: "sortingPOI/cream1.jpg", name: "Facial Scrub", description: "Whitening Scrub 200g", price: "800.00"},
-        {category: "cosmetics", picture: "sortingPOI/cream2.jpg", name: "Facial Cream", description: "Garnier Skin Whitening Cream", price: "1150.00"}
+        {category: "food", picture: "sortingPOI/Carrot.jpg", name: "Carrot 1Kg", description: "Fresh carrot from Nuwara Eliya", price: "100.00", link:"product.php"},
+        {category: "food", picture: "sortingPOI/chickenCubes.jpg", name: "Chicken Cubes", description: "Chicken Cubes", price: "300.00",link:"product2.php"},
+        {category: "food", picture: "sortingPOI/kome.jpg", name: "Munchee Kome", description: "Delightful Cookies", price: "150.00",link:"product3.php"},
+        {category: "food", picture: "sortingPOI/jamBottle.jpg", name: "Mixed Fruit Jam", description: "MD Mixed Fruit Jam 225g", price: "180.00",link:"product.php"},
+        {category: "food", picture: "sortingPOI/chips.jpg", name: "Potato Chips", description: "Jacker Barbecue Wavy Potato Chips 60g", price: "420.00",link:"product2.php"},
+        {category: "cosmetics", picture: "sortingPOI/cream1.jpg", name: "Facial Scrub", description: "Whitening Scrub 200g", price: "800.00",link:"product4.php"},
+        {category: "cosmetics", picture: "sortingPOI/cream2.jpg", name: "Facial Cream", description: "Garnier Skin Whitening Cream", price: "1150.00",link:"product4.php"}
     ];
 
     function updateListview(sorting){
@@ -31,7 +31,7 @@ include 'header.php';
         });
         var html = "";
         $.each(data, function(index, item) {
-            html += '<li class="' + item.category + '"><a href="#">';
+            html += '<li class="' + item.category + '"><a data-ajax="false" href="'+item.link + '">';
             html += '<img src="images/' + item.picture + '".jpg" class="ui-li-thumb">';
             html += '<h4>' + item.name + '</h4>';
             html += '<p>' + item.description + '</p>';
