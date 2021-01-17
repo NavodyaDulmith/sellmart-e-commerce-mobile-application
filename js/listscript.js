@@ -3,8 +3,8 @@ var promoCode;
 var promoPrice;
 var fadeTime = 300;
 var discount =0;
-var subtotal =130;
-var total =130;
+var subtotal =325;
+var total =325;
 
 $(document).delegate('.ui-page', 'pageshow', function () {
     promoPrice = JSON.parse(sessionStorage.getItem('pointsRedeemed'));
@@ -21,7 +21,7 @@ $(document).delegate('.ui-page', 'pageshow', function () {
     }
   
     document.getElementById("basketpromo").innerHTML= promoPrice;
-    document.getElementById("basket-total").innerHTML= 130-promoPrice;
+    document.getElementById("basket-total").innerHTML= 325-promoPrice;
 
 
 });
