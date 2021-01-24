@@ -480,7 +480,7 @@ a.es-button, button.es-button {
                       <tr style="border-collapse:collapse">
                         <td align="center" valign="top" style="padding:0;Margin:0;width:560px"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                             <tr style="border-collapse:collapse">
-                              <td align="center" style="padding:0;Margin:0;padding-bottom:10px;font-size:0px"><img class="adapt-img" src="https://drive.google.com/file/d/12USEmP68UO9yEHCONsgefgWZ-wJrFWPP/view?usp=sharing" alt style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" width="65" height="54"></td>
+                              <td align="center" style="padding:0;Margin:0;padding-bottom:10px;font-size:0px"><img class="adapt-img" src="https://i.imgur.com/3Q15E70.jpg" alt style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" width="65" height="54"></td>
                             </tr>
                           </table></td>
                       </tr>
@@ -535,11 +535,11 @@ a.es-button, button.es-button {
                     </table></td>
                 </tr>
                 <tr style="border-collapse:collapse">
-                  <td align="left" style="padding:0;Margin:0;padding-left:20px;padding-right:20px;background-color:#8CC63F" bgcolor="#8CC63F"><table cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                  <td align="left" style="padding:0;Margin:0;padding-left:20px;padding-right:20px;background-color:#1128A4" bgcolor="#8CC63F"><table cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                       <tr style="border-collapse:collapse">
                         <td align="center" valign="top" style="padding:0;Margin:0;width:560px"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                             <tr style="border-collapse:collapse">
-                              <td align="center" style="padding:0;Margin:0"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:14px;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#FFFFFF"><strong><span style="font-family:'courier new', courier, 'lucida sans typewriter', 'lucida typewriter', monospace">© 2021 FreshMart.&nbsp;All Rights Reserved</span>&nbsp;</strong></p></td>
+                              <td align="center" style="padding:0;Margin:0"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:14px;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#FFFFFF"><strong><span style="font-family:'courier new', courier, 'lucida sans typewriter', 'lucida typewriter', monospace">© 2021 SellMart.&nbsp;All Rights Reserved</span>&nbsp;</strong></p></td>
                             </tr>
                           </table></td>
                       </tr>
