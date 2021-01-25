@@ -115,6 +115,86 @@
             </div>
         </div>
     </div>
+    <div class="ui-block-d" id="products-cards" style="width:25%;">
+        <div class="card" style="height:475px">
+            <img src="./images/products/product5.jpg" alt="Avatar" class="cardImg">
+            <div class="cardContainer" style="text-align:center">
+                <h2><b>Viola Skin Care Cream</b></h2>
+                <p>Rs 425.00 / Unit</p>
+                <a data-ajax="false" href="product2.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
+            </div>
+        </div>
+    </div>
+    <div class="ui-block-d" id="products-cards" style="width:25%;">
+        <div class="card" style="height:475px">
+            <img src="./images/products/product7.jpg" alt="Avatar" class="cardImg">
+            <div class="cardContainer" style="text-align:center">
+                <h2><b>L'Oreal Skin Care Cream</b></h2>
+                <p>Rs 560.00 / Unit</p>
+                <a data-ajax="false" href="product2.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
+            </div>
+        </div>
+    </div>
+    <div class="ui-block-d" id="products-cards" style="width:25%;">
+        <div class="card" style="height:475px">
+            <img src="./images/products/chips.jpg" alt="Avatar" class="cardImg">
+            <div class="cardContainer" style="text-align:center">
+                <h2><b>Crispy Potato Chips</b></h2>
+                <p>Rs 100.00 / Unit</p>
+                <a data-ajax="false" href="product2.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
+            </div>
+        </div>
+    </div>
+    <div class="ui-block-d" id="products-cards" style="width:25%;">
+        <div class="card" style="height:475px">
+            <img src="./images/products/product8.jpg" alt="Avatar" class="cardImg">
+            <div class="cardContainer" style="text-align:center">
+                <h2><b>L'Oreal Skin Care Cream</b></h2>
+                <p>Rs 925.00 / Unit</p>
+                <a data-ajax="false" href="product2.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
+            </div>
+        </div>
+    </div>
+    <div class="ui-block-d" id="products-cards" style="width:25%;">
+        <div class="card" style="height:475px">
+            <img src="./images/products/product9.png" alt="Avatar" class="cardImg">
+            <div class="cardContainer" style="text-align:center">
+                <h2><b>Trismmee Hair Conditioner </b></h2>
+                <p>Rs 285.00 / Unit</p>
+                <a data-ajax="false" href="product2.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
+            </div>
+        </div>
+    </div>
+    <div class="ui-block-d" id="products-cards" style="width:25%;">
+        <div class="card" style="height:475px">
+            <img src="./images/products/product10.jpeg" alt="Avatar" class="cardImg">
+            <div class="cardContainer" style="text-align:center">
+                <h2><b>Head and Shoulder Hair Shampo</b></h2>
+                <p>Rs 160.00 / Unit</p>
+                <a data-ajax="false" href="product2.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
+            </div>
+        </div>
+    </div>
+    <div class="ui-block-d" id="products-cards" style="width:25%;">
+        <div class="card" style="height:475px">
+            <img src="./images/products/product11.jpg" alt="Avatar" class="cardImg">
+            <div class="cardContainer" style="text-align:center">
+                <h2><b>Shock Shoe Polish</b></h2>
+                <p>Rs 220.00 / Unit</p>
+                <a data-ajax="false" href="product2.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
+            </div>
+        </div>
+    </div>
+    <div class="ui-block-d" id="products-cards" style="width:25%;">
+        <div class="card" style="height:475px">
+            <img src="./images/products/product12.jpg" alt="Avatar" class="cardImg">
+            <div class="cardContainer" style="text-align:center">
+                <h2><b>Kiwi Shoe Polish</b></h2>
+                <p>Rs 150.00 / Unit</p>
+                <a data-ajax="false" href="product2.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
+            </div>
+        </div>
+    </div>
     <button style="margin-left: auto;margin-right: auto; width: 250; display: block;border-radius: 100px;" class="ui-btn-active" id="viewMore">View More</button>
 
 </div>
