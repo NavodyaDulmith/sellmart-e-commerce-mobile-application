@@ -74,16 +74,6 @@
 <div class="ui-grid-a" style="margin-left: -5%">
     <div class="ui-block-a" id="products-cards" style="width:25%;">
         <div class="card" style="height: 500px; max-width: 330px;">
-            <img src="./images/products/product1.jpg" alt="Avatar" class="cardImg">
-            <div class="cardContainer" style="text-align:center">
-                <h2><b>PraNaturals Pure Aloe Vera Gel 200ml</b></h2>
-                <p>Rs 225.00 / Unit</p>
-                <a data-ajax="false" href="product6.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
-            </div>
-        </div>
-    </div>
-    <div class="ui-block-d" id="products-cards" style="width:25%;">
-        <div class="card" style="height: 500px; max-width: 330px;">
             <img src="./images/products/product5.jpg" alt="Avatar" class="cardImg">
             <div class="cardContainer" style="text-align:center">
                 <h2><b>Viola Skin Care Cream</b></h2>
@@ -92,7 +82,7 @@
             </div>
         </div>
     </div>
-    <div class="ui-block-d" id="products-cards" style="width:25%;">
+    <div class="ui-block-b" id="products-cards" style="width:25%;">
         <div class="card" style="height: 500px; max-width: 330px;">
             <img src="./images/products/product7.jpg" alt="Avatar" class="cardImg">
             <div class="cardContainer" style="text-align:center">
@@ -102,7 +92,7 @@
             </div>
         </div>
     </div>
-    <div class="ui-block-d" id="products-cards" style="width:25%;">
+    <div class="ui-block-c" id="products-cards" style="width:25%;">
         <div class="card" style="height: 500px; max-width: 330px;">
             <img src="./images/products/chips.jpg" alt="Avatar" class="cardImg">
             <div class="cardContainer" style="text-align:center">
@@ -122,7 +112,7 @@
             </div>
         </div>
     </div>
-    <div class="ui-block-d" id="products-cards" style="width:25%;">
+    <div class="ui-block-a" id="products-cards" style="width:25%;">
         <div class="card" style="height: 500px; max-width: 330px;">
             <img src="./images/products/product9.png" alt="Avatar" class="cardImg">
             <div class="cardContainer" style="text-align:center">
@@ -132,7 +122,7 @@
             </div>
         </div>
     </div>
-    <div class="ui-block-d" id="products-cards" style="width:25%;">
+    <div class="ui-block-b" id="products-cards" style="width:25%;">
         <div class="card" style="height: 500px; max-width: 330px;">
             <img src="./images/products/product10.jpeg" alt="Avatar" class="cardImg">
             <div class="cardContainer" style="text-align:center">
@@ -142,7 +132,7 @@
             </div>
         </div>
     </div>
-    <div class="ui-block-d" id="products-cards" style="width:25%;">
+    <div class="ui-block-c" id="products-cards" style="width:25%;">
         <div class="card" style="height: 500px; max-width: 330px;">
             <img src="./images/products/product11.jpg" alt="Avatar" class="cardImg">
             <div class="cardContainer" style="text-align:center">
@@ -183,7 +173,7 @@
 
 <script>
     $(document).on('click', '#viewMore', function(e) {
-        window.location.href="sortingPOI.php";
+        window.location.href = "sortingPOI.php";
 
     });
 
