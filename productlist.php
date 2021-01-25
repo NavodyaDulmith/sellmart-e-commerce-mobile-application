@@ -42,6 +42,19 @@ include 'header.php';?>
       </div>
 
     </div>
+    <!-- fixednavbarbottom -->
+<div style="border: none;" data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+        <ul>
+            <li><a href="index.php" data-ajax="false" data-icon="home" >Home</a></li>
+            <li><a href="poi.php" data-ajax="false" data-icon="grid">Top Products</a></li>
+            <li><a href="favourites.php" data-ajax="false" data-icon="star">Favourites</a></li>
+            <li><a href="productList.php" data-ajax="false" data-icon="shop" class="ui-btn-active">Cart</a></li>
+        </ul>
+    </div>
+</div>
+<!-- fixednavbarbottom -->
+
     <aside>
       <div class="summary">
         <div class="summary-total-items"><span class="total-items"></span> Items in your Bag</div>
@@ -66,6 +79,3 @@ include 'header.php';?>
   </main>
 </body>
 
-<?php
-
-include 'footer.php'; ?>

@@ -26,7 +26,7 @@
 <!-- Top Sellings -->
 <div class="ui-grid-a" style="margin-left: -5%">
     <div class="ui-block-a" id="products-cards" style="width:25%;">
-        <div class="card" style="height:475px">
+        <div class="card" style="height: 500px; max-width: 330px;">
             <img src="./images/products/p22.PNG" alt="Avatar" class="cardImg">
             <div class="cardContainer" style="text-align:center">
                 <h2><b>Jacker Potato Chips Tomato 60g</b></h2>
@@ -38,7 +38,7 @@
     </a>
 
     <div class="ui-block-b" id="products-cards" style="width:25%;">
-        <div class="card" style="height:475px">
+        <div class="card" style="height: 500px; max-width: 330px;">
             <img src="./images/products/p3.png" alt="Avatar" class="cardImg">
             <div class="cardContainer" style="text-align:center">
                 <h2><b>Md Strawberry Flavoured Jam Fruit 500g</b></h2>
@@ -49,7 +49,7 @@
     </div>
 
     <div class="ui-block-c" id="products-cards" style="width:25%;">
-        <div class="card" style="height:475px">
+        <div class="card" style="height: 500px; max-width: 330px;">
             <img src="./images/products/p1.PNG" alt="Avatar" class="cardImg">
             <div class="cardContainer" style="text-align:center">
                 <h2><b>Kelloggs Corn Flakes Flavoured 300g</b></h2>
@@ -60,12 +60,12 @@
     </div>
 
     <div class="ui-block-d" id="products-cards" style="width:25%;">
-        <div class="card" style="height:475px">
+        <div class="card" style="height: 500px; max-width: 330px;">
             <img src="./images/products/product3.jpg" alt="Avatar" class="cardImg">
             <div class="cardContainer" style="text-align:center">
                 <h2><b>Garnier BB Cream Anti Ageing Moisturiser, 50 ml</b></h2>
                 <p>Rs 450.00 / Unit</p>
-                <a data-ajax="false" href="product2.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
+                <a data-ajax="false" href="product4.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
             </div>
         </div>
     </div>
@@ -73,125 +73,92 @@
 
 <div class="ui-grid-a" style="margin-left: -5%">
     <div class="ui-block-a" id="products-cards" style="width:25%;">
-        <div class="card" style="height:475px">
+        <div class="card" style="height: 500px; max-width: 330px;">
             <img src="./images/products/product1.jpg" alt="Avatar" class="cardImg">
             <div class="cardContainer" style="text-align:center">
                 <h2><b>PraNaturals Pure Aloe Vera Gel 200ml</b></h2>
                 <p>Rs 225.00 / Unit</p>
-                <a data-ajax="false" href="product2.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="ui-block-b" id="products-cards" style="width:25%;">
-        <div class="card" style="height:475px">
-            <img src="./images/products/product2.jpg" alt="Avatar" class="cardImg">
-            <div class="cardContainer" style="text-align:center">
-                <h2><b>Morris & Co Hand Care Treats, 1 Pack (3 Pieces)</b></h2>
-                <p>Rs 560.00 / Unit</p>
-                <a data-ajax="false" href="product2.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="ui-block-c" id="products-cards" style="width:25%;">
-        <div class="card" style="height:475px">
-            <img src="./images/products/product8.jpg" alt="Avatar" class="cardImg">
-            <div class="cardContainer" style="text-align:center">
-                <h2><b>L'Oreal Paris Smooth Sugar Nourish Cocoa</b></h2>
-                <p>Rs 525.00 / Unit</p>
-                <a data-ajax="false" href="product2.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="ui-block-d" id="products-cards" style="width:25%;">
-        <div class="card" style="height:475px">
-            <img src="./images/products/product4.jpg" alt="Avatar" class="cardImg">
-            <div class="cardContainer" style="text-align:center">
-                <h2><b>L'Oreal Blackhead Skin Rescue Kit 50 ml</b></h2>
-                <p>Rs 925.00 / Unit</p>
-                <a data-ajax="false" href="product2.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
+                <a data-ajax="false" href="product6.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
             </div>
         </div>
     </div>
     <div class="ui-block-d" id="products-cards" style="width:25%;">
-        <div class="card" style="height:475px">
+        <div class="card" style="height: 500px; max-width: 330px;">
             <img src="./images/products/product5.jpg" alt="Avatar" class="cardImg">
             <div class="cardContainer" style="text-align:center">
                 <h2><b>Viola Skin Care Cream</b></h2>
                 <p>Rs 425.00 / Unit</p>
-                <a data-ajax="false" href="product2.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
+                <a data-ajax="false" href="product5.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
             </div>
         </div>
     </div>
     <div class="ui-block-d" id="products-cards" style="width:25%;">
-        <div class="card" style="height:475px">
+        <div class="card" style="height: 500px; max-width: 330px;">
             <img src="./images/products/product7.jpg" alt="Avatar" class="cardImg">
             <div class="cardContainer" style="text-align:center">
                 <h2><b>L'Oreal Skin Care Cream</b></h2>
                 <p>Rs 560.00 / Unit</p>
-                <a data-ajax="false" href="product2.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
+                <a data-ajax="false" href="product6.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
             </div>
         </div>
     </div>
     <div class="ui-block-d" id="products-cards" style="width:25%;">
-        <div class="card" style="height:475px">
+        <div class="card" style="height: 500px; max-width: 330px;">
             <img src="./images/products/chips.jpg" alt="Avatar" class="cardImg">
             <div class="cardContainer" style="text-align:center">
                 <h2><b>Crispy Potato Chips</b></h2>
                 <p>Rs 100.00 / Unit</p>
-                <a data-ajax="false" href="product2.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
+                <a data-ajax="false" href="product7.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
             </div>
         </div>
     </div>
     <div class="ui-block-d" id="products-cards" style="width:25%;">
-        <div class="card" style="height:475px">
+        <div class="card" style="height: 500px; max-width: 330px;">
             <img src="./images/products/product8.jpg" alt="Avatar" class="cardImg">
             <div class="cardContainer" style="text-align:center">
                 <h2><b>L'Oreal Skin Care Cream</b></h2>
                 <p>Rs 925.00 / Unit</p>
-                <a data-ajax="false" href="product2.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
+                <a data-ajax="false" href="product8.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
             </div>
         </div>
     </div>
     <div class="ui-block-d" id="products-cards" style="width:25%;">
-        <div class="card" style="height:475px">
+        <div class="card" style="height: 500px; max-width: 330px;">
             <img src="./images/products/product9.png" alt="Avatar" class="cardImg">
             <div class="cardContainer" style="text-align:center">
                 <h2><b>Trismmee Hair Conditioner </b></h2>
                 <p>Rs 285.00 / Unit</p>
-                <a data-ajax="false" href="product2.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
+                <a data-ajax="false" href="product9.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
             </div>
         </div>
     </div>
     <div class="ui-block-d" id="products-cards" style="width:25%;">
-        <div class="card" style="height:475px">
+        <div class="card" style="height: 500px; max-width: 330px;">
             <img src="./images/products/product10.jpeg" alt="Avatar" class="cardImg">
             <div class="cardContainer" style="text-align:center">
                 <h2><b>Head and Shoulder Hair Shampo</b></h2>
                 <p>Rs 160.00 / Unit</p>
-                <a data-ajax="false" href="product2.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
+                <a data-ajax="false" href="product10.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
             </div>
         </div>
     </div>
     <div class="ui-block-d" id="products-cards" style="width:25%;">
-        <div class="card" style="height:475px">
+        <div class="card" style="height: 500px; max-width: 330px;">
             <img src="./images/products/product11.jpg" alt="Avatar" class="cardImg">
             <div class="cardContainer" style="text-align:center">
                 <h2><b>Shock Shoe Polish</b></h2>
                 <p>Rs 220.00 / Unit</p>
-                <a data-ajax="false" href="product2.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
+                <a data-ajax="false" href="product11.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
             </div>
         </div>
     </div>
     <div class="ui-block-d" id="products-cards" style="width:25%;">
-        <div class="card" style="height:475px">
+        <div class="card" style="height: 500px; max-width: 330px;">
             <img src="./images/products/product12.jpg" alt="Avatar" class="cardImg">
             <div class="cardContainer" style="text-align:center">
                 <h2><b>Kiwi Shoe Polish</b></h2>
                 <p>Rs 150.00 / Unit</p>
-                <a data-ajax="false" href="product2.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
+                <a data-ajax="false" href="product12.php" class="ui-btn ui-btn-inline ui-btn-b">View</a>
             </div>
         </div>
     </div>

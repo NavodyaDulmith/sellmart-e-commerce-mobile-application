@@ -17,7 +17,7 @@
 </head>
 
 <ul data-role="listview" data-inset="false" style="padding:5%">
-    <h1 style="font-family: Tahoma, sans-serif;font-size: 25px; color:#1128A4;padding:1%"><b>Top Rated Products</b></h1>
+    <h1 style="font-family: Tahoma, sans-serif;font-size: 25px; color:#1128A4;padding:1%"><b>Top Products</b></h1>
     <li><a href="#">
             <img src="images/jam3.png">
             <div>
@@ -119,6 +119,18 @@
         </div>
     </li>
 </ul>
+    <!-- fixednavbarbottom -->
+    <div style="border: none;" data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+        <ul>
+            <li><a href="index.php" data-ajax="false" data-icon="home" >Home</a></li>
+            <li><a href="poi.php" data-ajax="false" data-icon="grid" class="ui-btn-active">Top Products</a></li>
+            <li><a href="favourites.php" data-ajax="false" data-icon="star">Favourites</a></li>
+            <li><a href="productList.php" data-ajax="false" data-icon="shop" >Cart</a></li>
+        </ul>
+    </div>
+</div>
+<!-- fixednavbarbottom -->
 <script src="http://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
 <script>
     var ratedIndex = -1,
